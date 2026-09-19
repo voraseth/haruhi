@@ -1,0 +1,253 @@
+======================================================================================================================
+ELIMINATION TABLE  --  audit support for PAPER-n6-872.tex
+   Lemma 5.1 (lem:870, L=868,869) / Prop 5.5 (prop:871, L=870) / Theorem 5.7 (thm:classes, L=871)
+driver : reviews/elimtable-workdir/elimtable.py
+engine : approaches/n6-871/checks/scan871.py  (Algorithm 2), imported unmodified
+params : CAP_CMAX=20  SLACKDIV=4  COMPSIZE=5  RUNCAP=4  RUNFOURCAP=2
+======================================================================================================================
+
+guard stock BASE = defsplit e1 e2 e3 l12 lemmaA lemmaC lemmaR lemmaS lu8 pareto t1 t2 t7 unit
+guard stock FULL = BASE + paretoS (Lem 5.2) + chainrun (Lem 5.3) + groups (Lem 5.4)
+
+rule dictionary (Appendix C.2 numbering):
+    R1      unit       h>=0
+    R2      t1         cnl>=0
+    R4      lemmaS     re-entry bound
+    R3      t2         hits>=0
+    R5      l12        cycle bound
+    R6      lu8        glue bound
+    R7      defsplit   defect split
+    R8a     e1         hits<=Sp
+    R8b     e2         cnl<=Sp
+    R10     lemmaR     run cap (R10)
+    R9a     t7         chain-count cap (R9, first clause)
+    R11a    e3         overlap OV (R11, first clause)
+    R11b    lemmaC     cycle lemma PEN>=Ncyc-zp2g (R11, second clause)
+    R12     lemmaA     block count (R12)
+    R13c    pareto     R13 with the singleton clause dropped (coarse frontier)
+    R13     paretoS    R13 in full: Pareto frontier + singleton chains (Lem 5.2)
+    R14     groups     R14 component packing (Lem 5.4)
+    R13r    chainrun   R13 with the REFINED frontier of Lem 5.3 (no separate App.C.2 number)
+
+----------------------------------------------------------------------------------------------------------------------
+REGRESSION LADDER  (surviving types / surviving cells)
+----------------------------------------------------------------------------------------------------------------------
+   L        BASE types  BASE cells      FULL types  FULL cells
+   868            0           0               0           0
+   869            0           0               0           0
+   870            2           8               0           0
+   871            8          63               4          18
+   872           22         219              17         148
+   873           45         503              40         431
+   registered BASE cell ladder 868..873 : 0, 0, 8, 63, 219, 503   (paper: 0,0,8,63,219,503)
+   budget hits = 0  (must be 0)
+
+----------------------------------------------------------------------------------------------------------------------
+SLACK-INDEPENDENCE (lets the table be indexed by the TYPE alone)
+----------------------------------------------------------------------------------------------------------------------
+R4 is the only slack-dependent rule (Q2 <= zp2s + floor(slack/4)).
+For L <= 871 every admissible slack is <= 3, so floor(slack/4)=0 and R4
+is slack-free.  Verified directly: for every type and every slack it
+occurs with, the surviving e-set is identical.
+   slack-dependent types found: 0
+
+A type with B = D/5+X4+Z therefore occurs at exactly the lengths
+L >= 867+B, L <= 871, with slack = L-867-B:
+   B=1 : L = 868,869,870,871       B=3 : L = 870,871
+   B=2 : L = 869,870,871           B=4 : L = 871
+
+======================================================================================================================
+TYPE-BY-TYPE ELIMINATION  --  guard stock FULL
+   'rules' = a MINIMAL SUFFICIENT set: these rules ALONE already empty the type, and dropping any one
+             of them leaves a survivor.  [Rx] marks the deciding rule g*; the numbers are g*'s two
+             sides on a profile that satisfies every OTHER rule of the set, at the largest such e.
+======================================================================================================================
+B   (D,X4,Z)    e-range  verdict  minimal sufficient rules           deciding numbers
+----------------------------------------------------------------------------------------------------------------------
+1   (0,0,1)     0..24    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 4   [at e=1]
+1   (0,1,0)     0..23    empty    R4+R6+[R10]                        Fp+S5 = 24  >  4Rcap = 8   [at e=0]
+1   (5,0,0)     0..24    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=24]
+
+2   (0,0,2)     0..25    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 4   [at e=2]
+2   (0,1,1)     0..24    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 8   [at e=1]
+2   (0,2,0)     0..23    empty    R4+R6+[R10]                        Fp+S5 = 24  >  4Rcap = 12   [at e=0]
+2   (5,0,1)     0..25    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=25]
+2   (5,1,0)     0..24    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=24]
+2   (10,0,0)    0..25    empty    R4+R9a+[R12]                       P-2D = 6  >  4NCh-2(SH+ST)-PEN = 4   [at e=25]
+
+3   (0,0,3)     0..26    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 4   [at e=3]
+3   (0,1,2)     0..25    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 8   [at e=2]
+3   (0,2,1)     0..24    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 12   [at e=1]
+3   (0,3,0)     0..23    empty    R4+R6+[R10]                        Fp+S5 = 24  >  4Rcap = 16   [at e=0]
+3   (5,0,2)     0..26    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=26]
+3   (5,1,1)     0..25    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=25]
+3   (5,2,0)     0..24    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=24]
+3   (10,0,1)    0..26    empty    R4+R9a+[R13c]                      P = 26  >  F(NCh=26,D=10) = unrealisable   [at e=26]
+3   (10,1,0)    0..25    empty    R4+R6+R9a+R11b+[R13]               P = 26  >  Fs(NCh=12,D=10,PEN=10) = 18   [at e=10]
+3   (15,0,0)    0..26    empty    R4+R9a+R11b+R14+[R13r]             P = 27  >  Fr(NCh=16,S5=15,S4=0) = 19   [at e=15]
+
+4   (0,0,4)     0..27    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 4   [at e=4]
+4   (0,1,3)     0..26    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 8   [at e=3]
+4   (0,2,2)     0..25    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 12   [at e=2]
+4   (0,3,1)     0..24    empty    R4+R8a+[R10]                       Fp+S5 = 24  >  4Rcap = 16   [at e=1]
+4   (0,4,0)     0..23    empty    R4+R6+[R10]                        Fp+S5 = 24  >  4Rcap = 20   [at e=0]
+4   (5,0,3)     0..27    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=27]
+4   (5,1,2)     0..26    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=26]
+4   (5,2,1)     0..25    empty    R4+R9a+[R12]                       P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4   [at e=25]
+4   (5,3,0)     0..24    empty    R4+R6+R9a+R11b+R12+[R13c]          P = 25  >  F(NCh=5,D=5) = 23   [at e=1]
+4   (10,0,2)    0..27    empty    R4+R9a+R11b+R13+[R14]              pack 26 paths (S5=10,S4=0,Fp=16) into Ncomp = 21 : infeasible   [at e=7]
+4   (10,1,1)    0..26    empty    R4+R9a+R11b+R14+[R13r]             P = 26  >  Fr(NCh=12,S5=10,S4=0) = 18   [at e=11]
+4   (10,2,0)    0..25    ALIVE    --                                 e = 0,2   (2 classes)
+4   (15,0,1)    0..27    ALIVE    --                                 e = 2   (1 class)
+4   (15,1,0)    0..26    ALIVE    --                                 e = 0-4,7   (6 classes)
+4   (20,0,0)    0..27    ALIVE    --                                 e = 1-9   (9 classes)
+----------------------------------------------------------------------------------------------------------------------
+
+======================================================================================================================
+WITNESS DETAIL for every empty type (the profile that survives the minimal set minus its deciding rule)
+======================================================================================================================
+(0,0,1)  g*=R10 (lemmaR, run cap (R10))   e*=1   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1
+     profile: e=1 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 4
+(0,1,0)  g*=R10 (lemmaR, run cap (R10))   e*=0   e surviving R1+R2+R4+R3+R6+R7+R10\{R10} = 0
+     profile: e=0 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 8
+(5,0,0)  g*=R12 (lemmaA, block count (R12))   e*=24   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 0-24
+     profile: e=24 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(0,0,2)  g*=R10 (lemmaR, run cap (R10))   e*=2   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1-2
+     profile: e=2 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 2)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 4
+(0,1,1)  g*=R10 (lemmaR, run cap (R10))   e*=1   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1
+     profile: e=1 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 8
+(0,2,0)  g*=R10 (lemmaR, run cap (R10))   e*=0   e surviving R1+R2+R4+R3+R6+R7+R10\{R10} = 0
+     profile: e=0 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 12
+(5,0,1)  g*=R12 (lemmaA, block count (R12))   e*=25   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 1-25
+     profile: e=25 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,1,0)  g*=R12 (lemmaA, block count (R12))   e*=24   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 0-24
+     profile: e=24 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(10,0,0)  g*=R12 (lemmaA, block count (R12))   e*=25   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 0-25
+     profile: e=25 Q2=0 Ncyc=0 S5=10 S4=0 Sp=10 Fp=16 NCh=26 cnl=25 hits=25 PEN=0 P#=26 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R12 :  P-2D = 6  >  4NCh-2(SH+ST)-PEN = 4
+(0,0,3)  g*=R10 (lemmaR, run cap (R10))   e*=3   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 2-3
+     profile: e=3 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 3)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 4
+(0,1,2)  g*=R10 (lemmaR, run cap (R10))   e*=2   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1-2
+     profile: e=2 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 2)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 8
+(0,2,1)  g*=R10 (lemmaR, run cap (R10))   e*=1   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1
+     profile: e=1 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 12
+(0,3,0)  g*=R10 (lemmaR, run cap (R10))   e*=0   e surviving R1+R2+R4+R3+R6+R7+R10\{R10} = 0
+     profile: e=0 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 16
+(5,0,2)  g*=R12 (lemmaA, block count (R12))   e*=26   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 1-26
+     profile: e=26 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 2)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,1,1)  g*=R12 (lemmaA, block count (R12))   e*=25   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 1-25
+     profile: e=25 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,2,0)  g*=R12 (lemmaA, block count (R12))   e*=24   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 0-24
+     profile: e=24 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(10,0,1)  g*=R13c (pareto, R13 with the singleton clause dropped (coarse frontier))   e*=26   e surviving R1+R2+R4+R3+R7+R9a+R13c\{R13c} = 1-26
+     profile: e=26 Q2=0 Ncyc=0 S5=10 S4=0 Sp=10 Fp=16 NCh=26 cnl=25 hits=25 PEN=0 P#=26 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R13c :  P = 26  >  F(NCh=26,D=10) = unrealisable
+(10,1,0)  g*=R13 (paretoS, R13 in full: Pareto frontier + singleton chains (Lem 5.2))   e*=10   e surviving R1+R2+R4+R3+R6+R7+R9a+R11b+R13\{R13} = 0-10
+     profile: e=10 Q2=0 Ncyc=10 S5=10 S4=0 Sp=10 Fp=16 NCh=12 cnl=10 hits=10 PEN=10 P#=26 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R13 :  P = 26  >  Fs(NCh=12,D=10,PEN=10) = 18
+(15,0,0)  g*=R13r (chainrun, R13 with the REFINED frontier of Lem 5.3 (no separate App.C.2 number))   e*=15   e surviving R1+R2+R4+R3+R7+R9a+R11b+R14+R13r\{R13r} = 0-15
+     profile: e=15 Q2=0 Ncyc=15 S5=15 S4=0 Sp=15 Fp=12 NCh=16 cnl=15 hits=15 PEN=15 P#=27 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R13r :  P = 27  >  Fr(NCh=16,S5=15,S4=0) = 19
+(0,0,4)  g*=R10 (lemmaR, run cap (R10))   e*=4   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 2-4
+     profile: e=4 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 4)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 4
+(0,1,3)  g*=R10 (lemmaR, run cap (R10))   e*=3   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 2-3
+     profile: e=3 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 3)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 8
+(0,2,2)  g*=R10 (lemmaR, run cap (R10))   e*=2   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1-2
+     profile: e=2 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 2)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 12
+(0,3,1)  g*=R10 (lemmaR, run cap (R10))   e*=1   e surviving R1+R2+R4+R3+R7+R8a+R10\{R10} = 1
+     profile: e=1 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 16
+(0,4,0)  g*=R10 (lemmaR, run cap (R10))   e*=0   e surviving R1+R2+R4+R3+R6+R7+R10\{R10} = 0
+     profile: e=0 Q2=0 Ncyc=0 S5=0 S4=0 Sp=0 Fp=24 NCh=24 cnl=0 hits=0 PEN=0 P#=24 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R10 :  Fp+S5 = 24  >  4Rcap = 20
+(5,0,3)  g*=R12 (lemmaA, block count (R12))   e*=27   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 2-27
+     profile: e=27 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 3)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,1,2)  g*=R12 (lemmaA, block count (R12))   e*=26   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 1-26
+     profile: e=26 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 2)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,2,1)  g*=R12 (lemmaA, block count (R12))   e*=25   e surviving R1+R2+R4+R3+R7+R9a+R12\{R12} = 1-25
+     profile: e=25 Q2=0 Ncyc=0 S5=5 S4=0 Sp=5 Fp=20 NCh=25 cnl=24 hits=24 PEN=0 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 1)
+     violates R12 :  P-2D = 15  >  4NCh-2(SH+ST)-PEN = 4
+(5,3,0)  g*=R13c (pareto, R13 with the singleton clause dropped (coarse frontier))   e*=1   e surviving R1+R2+R4+R3+R6+R7+R9a+R11b+R12+R13c\{R13c} = 0-1
+     profile: e=1 Q2=0 Ncyc=1 S5=5 S4=0 Sp=5 Fp=20 NCh=5 cnl=1 hits=1 PEN=1 P#=25 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 0, 0)
+     violates R13c :  P = 25  >  F(NCh=5,D=5) = 23
+(10,0,2)  g*=R14 (groups, R14 component packing (Lem 5.4))   e*=7   e surviving R1+R2+R4+R3+R7+R9a+R11b+R13+R14\{R14} = 4-7
+     profile: e=7 Q2=0 Ncyc=0 S5=10 S4=0 Sp=10 Fp=16 NCh=8 cnl=7 hits=5 PEN=0 P#=26 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 2, 0, 0)
+     violates R14 :  pack 26 paths (S5=10,S4=0,Fp=16) into Ncomp = 21 : infeasible
+(10,1,1)  g*=R13r (chainrun, R13 with the REFINED frontier of Lem 5.3 (no separate App.C.2 number))   e*=11   e surviving R1+R2+R4+R3+R7+R9a+R11b+R14+R13r\{R13r} = 1-11
+     profile: e=11 Q2=1 Ncyc=10 S5=10 S4=0 Sp=10 Fp=16 NCh=12 cnl=10 hits=10 PEN=10 P#=26 pools(zq,zh,zp3,zp2s,zp2g)=(0, 0, 0, 1, 0)
+     violates R13r :  P = 26  >  Fr(NCh=12,S5=10,S4=0) = 18
+
+======================================================================================================================
+HEADLINE VERIFICATION
+======================================================================================================================
+L=871, admissible types with D/5+X4+Z = 4 : 15   (paper: 15)
+   of them EMPTY                          : 11   (paper: 11)
+   of them ALIVE                          : 4   (paper: 4)
+ALIVE types with D/5+X4+Z <= 3            : 0   (paper: 0, hence W=146 and slack=0)
+   (10,2,0)  Alg.2 e = 0,2         after Lemma 5.6 (e>=1): e = 2
+   (15,0,1)  Alg.2 e = 2           after Lemma 5.6 (e>=1): e = 2
+   (15,1,0)  Alg.2 e = 0-4,7       after Lemma 5.6 (e>=1): e = 1-4,7
+   (20,0,0)  Alg.2 e = 1-9         after Lemma 5.6 (e>=1): e = 1-9
+L=871 surviving cells, Algorithm 2 only    : 18
+L=871 surviving cells, after Lemma 5.6     : 16   (paper: 16)
+
+Paper's Theorem 5.7 list, reproduced:
+   (10,2,0) e=2 -> 1 ; (15,0,1) e=2 -> 1 ; (15,1,0) e=1,2,3,4,7 -> 5 ; (20,0,0) e=1..9 -> 9   TOTAL 16
+
+L=868: types with D/5+X4+Z <= 1 that survive FULL : 0   (paper: 0)
+L=869: types with D/5+X4+Z <= 2 that survive FULL : 0   (paper: 0)
+L=870: types with D/5+X4+Z <= 3 that survive FULL : 0   (paper: 0)
+L=870 under the BASE stock: 2 types / 8 cells   (paper: exactly two classes survive)
+      (10,1,0) slack=0   e = 3   (1 cell)
+      (15,0,0) slack=0   e = 2-8   (7 cells)
+   both die once Lem 5.2-5.4 are added; per-type deciding rules:
+      (10,1,0): R4+R6+R9a+R11b+[R13] ; P = 26  >  Fs(NCh=12,D=10,PEN=10) = 18 [at e=10]
+      (15,0,0): R4+R9a+R11b+R14+[R13r] ; P = 27  >  Fr(NCh=16,S5=15,S4=0) = 19 [at e=15]
+
+----------------------------------------------------------------------------------------------------------------------
+WHICH OF LEMMAS 5.2/5.3/5.4 THE ELIMINATION NEEDS (Prop 5.5's parenthetical claim)
+----------------------------------------------------------------------------------------------------------------------
+   L=870
+      BASE + (nothing)                                ->  2 types /   8 cells
+      BASE + Lem5.2(R13)                              ->  1 types /   3 cells
+      BASE + Lem5.3(R13r)                             ->  1 types /   3 cells
+      BASE + Lem5.4(R14)                              ->  2 types /   8 cells
+      BASE + Lem5.2(R13),Lem5.3(R13r)                 ->  1 types /   3 cells
+      BASE + Lem5.2(R13),Lem5.4(R14)                  ->  1 types /   3 cells
+      BASE + Lem5.3(R13r),Lem5.4(R14)                 ->  0 types /   0 cells
+      BASE + Lem5.2(R13),Lem5.3(R13r),Lem5.4(R14)     ->  0 types /   0 cells
+   L=871
+      BASE + (nothing)                                ->  8 types /  63 cells
+      BASE + Lem5.2(R13)                              ->  7 types /  52 cells
+      BASE + Lem5.3(R13r)                             ->  7 types /  52 cells
+      BASE + Lem5.4(R14)                              ->  8 types /  57 cells
+      BASE + Lem5.2(R13),Lem5.3(R13r)                 ->  7 types /  52 cells
+      BASE + Lem5.2(R13),Lem5.4(R14)                  ->  6 types /  39 cells
+      BASE + Lem5.3(R13r),Lem5.4(R14)                 ->  4 types /  18 cells
+      BASE + Lem5.2(R13),Lem5.3(R13r),Lem5.4(R14)     ->  4 types /  18 cells
+   => at L=870 no single added lemma suffices; {Lem5.3,Lem5.4} is the
+      unique sufficient pair, exactly as Proposition 5.5 states.
+   => at L=871 Lem 5.2 is redundant once Lem 5.3 and Lem 5.4 are on
+      (18 cells with or without it).
+
+elapsed 24.4s
