@@ -1,0 +1,12 @@
+L=868: as-run cells=0  true-X4h cells=0  IDENTICAL
+L=869: as-run cells=0  true-X4h cells=0  IDENTICAL
+L=870: as-run cells=8  true-X4h cells=8  IDENTICAL
+L=871: as-run cells=63  true-X4h cells=63  IDENTICAL
+L=872: as-run cells=219  true-X4h cells=219  IDENTICAL
+L=873: as-run cells=503  true-X4h cells=503  IDENTICAL
+
+CONTROL verified-872 (D,X4,Z)=(25,0,0) e=25: as-run=alive true=alive -> OK
+CONTROL verified-873 (D,X4,Z)=(0,6,0) e=0: as-run=alive true=alive -> OK
+
+RESULT: PASS -- X4h:=X4 substitution changes no survivor cell; controls admissible under both semantics
+elapsed 2.0s

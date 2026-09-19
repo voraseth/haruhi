@@ -1,0 +1,4 @@
+verified-872: e=25 S5=25 S4=0 X4=0 X4h=0 Ncyc=25
+96x verified-873: last e=0 S5=0 S4=0 X4=6 X4h=5
+violations=0
+CONTROLS PASS: 97 orderings, every clause of Lemmas 5.2/5.3/5.4 (PARETOS/CHAINRUN/GROUPS) satisfied on all of them

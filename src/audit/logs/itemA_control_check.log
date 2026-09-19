@@ -1,0 +1,3 @@
+best872.txt {'L': 872, 'm': 145, 'extra': 25, 'e3': 0, 'd2': 25, 'dirty': 25, 'F': 50, 'Q2': 0, 'Ncyc': 25, 'alpha': 3, 'h': 0, 'Delta': 0, 'PT': 3, 't': 28} OK 
+sol000.txt {'L': 873, 'm': 120, 'extra': 0, 'e3': 0, 'd2': 0, 'dirty': 0, 'F': 0, 'Q2': 0, 'Ncyc': 0, 'alpha': 23, 'h': 6, 'Delta': 0, 'PT': 24, 't': 29} OK 
+checked 97 sequences; 0 violations
