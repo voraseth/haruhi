@@ -1,0 +1,388 @@
+==============================================================================
+LEMMA 6.7 -- cycle-shape exclusion: no type-II cycle in any of the sixteen classes
+==============================================================================
+
+[A] TIER 1: the closed-form kill  (all censuses with c2 >= 1, b_q1 = 0)
+    cell            a2 a3 c1 c2 | a1 lam | N_lo N_hi | verdict
+    (20,0,0) e=2 X4h=0  0  0  0  1 | 26   1 |   20   21 | -> TIER 2
+    (20,0,0) e=3 X4h=0  0  0  1  1 | 25   1 |   19   20 | -> TIER 2
+    (20,0,0) e=3 X4h=0  1  0  0  1 | 24   2 |   21   20 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=4 X4h=0  0  0  2  1 | 24   1 |   19   20 | -> TIER 2
+    (20,0,0) e=4 X4h=0  0  0  0  2 | 24   1 |   21   20 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=4 X4h=0  0  1  0  1 | 23   2 |   23   20 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=4 X4h=0  1  0  1  1 | 23   2 |   20   20 | -> TIER 2
+    (20,0,0) e=4 X4h=0  2  0  0  1 | 22   3 |   22   20 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  0  0  3  1 | 23   1 |   18   19 | -> TIER 2
+    (20,0,0) e=5 X4h=0  0  0  1  2 | 23   1 |   21   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  0  1  1  1 | 22   2 |   22   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  1  0  2  1 | 22   2 |   20   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  1  0  0  2 | 22   2 |   22   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  1  1  0  1 | 21   3 |   24   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  2  0  1  1 | 21   3 |   21   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=5 X4h=0  3  0  0  1 | 20   4 |   23   19 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  0  0  4  1 | 22   1 |   18   18 | -> TIER 2
+    (20,0,0) e=6 X4h=0  0  0  2  2 | 22   1 |   20   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  0  0  0  3 | 22   1 |   23   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  0  1  2  1 | 21   2 |   22   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  0  1  0  2 | 21   2 |   24   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  0  2  0  1 | 20   3 |   26   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  1  0  3  1 | 21   2 |   19   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  1  0  1  2 | 21   2 |   22   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  1  1  1  1 | 20   3 |   23   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  2  0  2  1 | 20   3 |   21   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  2  0  0  2 | 20   3 |   23   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  2  1  0  1 | 19   4 |   25   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  3  0  1  1 | 19   4 |   22   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=6 X4h=0  4  0  0  1 | 18   5 |   24   18 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  0  0  5  1 | 21   1 |   17   17 | -> TIER 2
+    (20,0,0) e=7 X4h=0  0  0  3  2 | 21   1 |   20   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  0  0  1  3 | 21   1 |   22   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  0  1  3  1 | 20   2 |   21   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  0  1  1  2 | 20   2 |   24   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  0  2  1  1 | 19   3 |   25   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  0  4  1 | 20   2 |   19   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  0  2  2 | 20   2 |   21   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  0  0  3 | 20   2 |   24   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  1  2  1 | 19   3 |   23   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  1  0  2 | 19   3 |   25   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  1  2  0  1 | 18   4 |   27   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  2  0  3  1 | 19   3 |   20   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  2  0  1  2 | 19   3 |   23   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  2  1  1  1 | 18   4 |   24   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  3  0  2  1 | 18   4 |   22   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  3  0  0  2 | 18   4 |   24   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  3  1  0  1 | 17   5 |   26   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  4  0  1  1 | 17   5 |   23   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=7 X4h=0  5  0  0  1 | 16   6 |   25   17 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  0  6  1 | 20   1 |   17   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  0  4  2 | 20   1 |   19   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  0  2  3 | 20   1 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  0  0  4 | 20   1 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  1  4  1 | 19   2 |   21   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  1  2  2 | 19   2 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  1  0  3 | 19   2 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  2  2  1 | 18   3 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  2  0  2 | 18   3 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  0  3  0  1 | 17   4 |   29   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  0  5  1 | 19   2 |   18   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  0  3  2 | 19   2 |   21   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  0  1  3 | 19   2 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  1  3  1 | 18   3 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  1  1  2 | 18   3 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  1  2  1  1 | 17   4 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  0  4  1 | 18   3 |   20   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  0  2  2 | 18   3 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  0  0  3 | 18   3 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  1  2  1 | 17   4 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  1  0  2 | 17   4 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  2  2  0  1 | 16   5 |   28   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  3  0  3  1 | 17   4 |   21   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  3  0  1  2 | 17   4 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  3  1  1  1 | 16   5 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  4  0  2  1 | 16   5 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  4  0  0  2 | 16   5 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  4  1  0  1 | 15   6 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  5  0  1  1 | 15   6 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=8 X4h=0  6  0  0  1 | 14   7 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  0  7  1 | 19   1 |   16   16 | -> TIER 2
+    (20,0,0) e=9 X4h=0  0  0  5  2 | 19   1 |   19   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  0  3  3 | 19   1 |   21   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  0  1  4 | 19   1 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  1  5  1 | 18   2 |   20   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  1  3  2 | 18   2 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  1  1  3 | 18   2 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  2  3  1 | 17   3 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  2  1  2 | 17   3 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  0  3  1  1 | 16   4 |   28   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  0  6  1 | 18   2 |   18   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  0  4  2 | 18   2 |   20   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  0  2  3 | 18   2 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  0  0  4 | 18   2 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  1  4  1 | 17   3 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  1  2  2 | 17   3 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  1  0  3 | 17   3 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  2  2  1 | 16   4 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  2  0  2 | 16   4 |   28   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  1  3  0  1 | 15   5 |   30   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  0  5  1 | 17   3 |   19   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  0  3  2 | 17   3 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  0  1  3 | 17   3 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  1  3  1 | 16   4 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  1  1  2 | 16   4 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  2  2  1  1 | 15   5 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  0  4  1 | 16   4 |   21   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  0  2  2 | 16   4 |   23   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  0  0  3 | 16   4 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  1  2  1 | 15   5 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  1  0  2 | 15   5 |   27   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  3  2  0  1 | 14   6 |   29   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  4  0  3  1 | 15   5 |   22   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  4  0  1  2 | 15   5 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  4  1  1  1 | 14   6 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  5  0  2  1 | 14   6 |   24   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  5  0  0  2 | 14   6 |   26   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  5  1  0  1 | 13   7 |   28   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  6  0  1  1 | 13   7 |   25   16 | DEAD  (N_lo > N_hi)
+    (20,0,0) e=9 X4h=0  7  0  0  1 | 12   8 |   27   16 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=2 X4h=1  0  0  0  1 | 25   2 |   21   21 | -> TIER 2
+    (15,1,0) e=3 X4h=1  0  0  1  1 | 24   2 |   21   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=3 X4h=1  1  0  0  1 | 23   3 |   22   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=4 X4h=1  0  0  2  1 | 23   2 |   20   20 | -> TIER 2
+    (15,1,0) e=4 X4h=1  0  0  0  2 | 23   2 |   23   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=4 X4h=1  0  1  0  1 | 22   3 |   24   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=4 X4h=1  1  0  1  1 | 22   3 |   22   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=4 X4h=1  2  0  0  1 | 21   4 |   23   20 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  0  5  1 | 20   2 |   19   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  0  3  2 | 20   2 |   21   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  0  1  3 | 20   2 |   24   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  1  3  1 | 19   3 |   23   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  1  1  2 | 19   3 |   25   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  0  2  1  1 | 18   4 |   27   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  0  4  1 | 19   3 |   20   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  0  2  2 | 19   3 |   23   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  0  0  3 | 19   3 |   25   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  1  2  1 | 18   4 |   24   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  1  0  2 | 18   4 |   27   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  1  2  0  1 | 17   5 |   28   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  2  0  3  1 | 18   4 |   22   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  2  0  1  2 | 18   4 |   24   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  2  1  1  1 | 17   5 |   26   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  3  0  2  1 | 17   5 |   23   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  3  0  0  2 | 17   5 |   26   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  3  1  0  1 | 16   6 |   27   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  4  0  1  1 | 16   6 |   25   17 | DEAD  (N_lo > N_hi)
+    (15,1,0) e=7 X4h=1  5  0  0  1 | 15   7 |   26   17 | DEAD  (N_lo > N_hi)
+    (10,2,0) e=2 X4h=1  0  0  0  1 | 24   2 |   23   20 | DEAD  (N_lo > N_hi)
+    (10,2,0) e=2 X4h=2  0  0  0  1 | 24   3 |   23   21 | DEAD  (N_lo > N_hi)
+    150 censuses with c2 >= 1;  140 killed by the closed form;  10 go on.
+
+[B] TIER 2: the 10 surviving censuses against the certified frontier
+    cell            a2 a3 c1 c2 bq1 | blocks_rest lam cost_rest sh st |  F | verdict
+    (20,0,0) e=2 X4h=0  0  0  0  1  0  |          26   1        13  0  0 | 19 | DEAD (Pareto 26 > 19)
+    (20,0,0) e=3 X4h=0  0  0  1  1  0  |          25   1        12  0  0 | 19 | DEAD (Pareto 25 > 19)
+    (20,0,0) e=4 X4h=0  0  0  2  1  0  |          24   1        11  0  0 | 17 | DEAD (Pareto 24 > 17)
+    (20,0,0) e=4 X4h=0  1  0  1  1  0  |          25   2        12  1  1 | 21 | DEAD (Pareto 25 > 21)
+    (20,0,0) e=4 X4h=0  1  0  1  1  1  |          24   1        10  1  0 | 15 | DEAD (Pareto 24 > 15)
+    (20,0,0) e=5 X4h=0  0  0  3  1  0  |          23   1        10  0  0 | 16 | DEAD (Pareto 23 > 16)
+    (20,0,0) e=6 X4h=0  0  0  4  1  0  |          22   1         9  0  0 | 15 | DEAD (Pareto 22 > 15)
+    (20,0,0) e=7 X4h=0  0  0  5  1  0  |          21   1         8  0  0 | 14 | DEAD (Pareto 21 > 14)
+    (20,0,0) e=9 X4h=0  0  0  7  1  0  |          19   1         6  0  0 | 11 | DEAD (Pareto 19 > 11)
+    (15,1,0) e=2 X4h=1  0  0  0  1  0  |          25   2         8  0  0 | 20 | DEAD (Pareto 25 > 20)
+    (15,1,0) e=4 X4h=1  0  0  2  1  0  |          23   2         6  0  0 | 17 | DEAD (Pareto 23 > 17)
+    survivors of Tier 2: 0
+
+[C] TIER 0 cross-check: the full candidate enumeration with c2 >= 1
+    cell               candidates | rejection tallies (slice convention) | survivors
+    (20,0,0) e=1 X4h=0        0 | (no c2>=1 candidate: a type-II cycle needs e >= 2) | 0
+    (20,0,0) e=2 X4h=0      378 | {'length_budget': 229, 'C6A_n4': 18, 'TC5_pareto': 6, 'C6A_n45': 5} | 0
+    (20,0,0) e=3 X4h=0     1001 | {'length_budget': 637, 'C6A_n4': 52, 'TC5_pareto': 4, 'C6A_n45': 13} | 0
+    (20,0,0) e=4 X4h=0     2402 | {'length_budget': 1614, 'C6A_n4': 164, 'TC5_pareto': 7, 'C6A_n45': 27} | 0
+    (20,0,0) e=5 X4h=0     3730 | {'length_budget': 2582, 'C6A_n4': 234, 'TC5_pareto': 4, 'C6A_n45': 42} | 0
+    (20,0,0) e=6 X4h=0     5920 | {'length_budget': 4197, 'C6A_n4': 342, 'TC5_pareto': 2, 'C6A_n45': 67} | 0
+    (20,0,0) e=7 X4h=0     7679 | {'length_budget': 5616, 'C6A_n4': 386, 'TC5_value': 1, 'C6A_n45': 86} | 0
+    (20,0,0) e=8 X4h=0    10164 | {'length_budget': 7824, 'C6A_n4': 610, 'C6A_n45': 92} | 0
+    (20,0,0) e=9 X4h=0    11878 | {'length_budget': 9627, 'C6A_n4': 825, 'TC5_value': 1, 'C6A_n45': 79} | 0
+    (15,1,0) e=1 X4h=1        0 | (no c2>=1 candidate: a type-II cycle needs e >= 2) | 0
+    (15,1,0) e=2 X4h=1      351 | {'length_budget': 234, 'C6A_n4': 18, 'TC5_value': 1, 'C6A_n45': 4} | 0
+    (15,1,0) e=3 X4h=1      925 | {'length_budget': 641, 'C6A_n4': 52, 'C6A_n45': 10} | 0
+    (15,1,0) e=4 X4h=1     2210 | {'length_budget': 1620, 'C6A_n4': 164, 'TC5_value': 1, 'C6A_n45': 19} | 0
+    (15,1,0) e=7 X4h=1     6945 | {'length_budget': 5571, 'C6A_n4': 362, 'C6A_n45': 53} | 0
+    (10,2,0) e=2 X4h=1      325 | {'length_budget': 216, 'C6A_n4': 15, 'C6A_n45': 4} | 0
+    (10,2,0) e=2 X4h=2      325 | {'length_budget': 235, 'C6A_n4': 18, 'C6A_n45': 3} | 0
+    TOTAL c2>=1 candidates over the sixteen classes: 54233;  SURVIVORS 0
+
+[D] CONTROLS (the same machinery must not exclude real objects)
+    verified 872, corner (25,0,0) e=25 S=4 X4=0    : 1 configuration(s) survive with c2 free
+        the real 872 configuration (a1=4 length-5 paths, 25 type-I cycles) is admitted: True
+    verified 873s, corner (0,6,0) e=0 X4=6 (X4h=5) : 1 configuration(s) survive with c2 free
+
+[E] DISCRIMINATION: the SAME constraint system admits type-II cycles
+    outside the length-871 budget, so c2 = 0 is a budget consequence.
+    cell               c2>=1 survivors | example configuration
+    (25,0,0) e=3               9 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 0, 1, 0, 19, 0)
+    (25,0,0) e=4               7 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 1, 1, 0, 19, 0)
+    (25,0,0) e=5              11 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 2, 1, 0, 18, 0)
+    (25,0,0) e=6               7 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 3, 1, 0, 18, 0)
+    (25,0,0) e=7               4 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 4, 1, 0, 17, 0)
+    (25,0,0) e=8               2 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 5, 1, 0, 17, 0)
+    (25,0,0) e=9               1 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 6, 1, 0, 16, 0)
+    (25,0,0) e=10              2 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 7, 1, 0, 16, 0)
+    (25,0,0) e=11              1 | (a2,a3,c1,c2,bq1,n45,n4)=(1, 0, 8, 1, 0, 15, 0)
+    (30,0,0) e=2              52 | (a2,a3,c1,c2,bq1,n45,n4)=(0, 0, 0, 1, 0, 17, 0)
+    (30,0,0) e=3              97 | (a2,a3,c1,c2,bq1,n45,n4)=(0, 0, 1, 1, 0, 16, 0)
+    (30,0,0) e=4              90 | (a2,a3,c1,c2,bq1,n45,n4)=(0, 0, 2, 1, 0, 16, 0)
+    cells (D,e) with D in {25,30} admitting c2 >= 1: 30
+    at (25,0,0) the admitting e-range is e = [3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+[F] ROBUSTNESS: repeat [A]-[C] with cap-mode 'lin' (drop the registered
+    g(20)=25 and use only the C6-B bound 4-2a-2b+2c beyond cost 16)
+    c2>=1 survivors over the sixteen classes in mode 'lin': 0
+    controls still survive in mode 'lin': True
+
+[G] THE COMPANION CLAUSE: no three-block path component (a3 = 0).
+    The identical two tiers, run over every census with a3 >= 1 and c2
+    free.  (An a3-component carries three link-paths of length 1 each:
+    exact length 3, deficiency 12, and its middle path is a forced
+    singleton chain -- Lemma 6.6 (3).)
+    cell            a2 a3 c1 c2 bq1 | N_lo N_hi | blocks lam cost sh st  F | verdict
+    (20,0,0) e=2 X4h=0  0  1  0  0  0  |   21   21 |     27   2   16  1  1 26 | DEAD
+    (20,0,0) e=2 X4h=0  0  1  0  0  1  |   21   21 |     26   1   14  1  0 19 | DEAD
+    (20,0,0) e=3 X4h=0  0  1  1  0  -  |   21   20 |  (closed form)          | DEAD
+    (20,0,0) e=3 X4h=0  1  1  0  0  -  |   22   20 |  (closed form)          | DEAD
+    (20,0,0) e=4 X4h=0  0  1  2  0  0  |   20   20 |     25   2   14  1  1 24 | DEAD
+    (20,0,0) e=4 X4h=0  0  1  2  0  1  |   20   20 |     24   1   12  1  0 17 | DEAD
+    (20,0,0) e=4 X4h=0  0  1  0  1  -  |   23   20 |  (closed form)          | DEAD
+    (20,0,0) e=4 X4h=0  0  2  0  0  -  |   24   20 |  (closed form)          | DEAD
+    (20,0,0) e=4 X4h=0  1  1  1  0  -  |   22   20 |  (closed form)          | DEAD
+    (20,0,0) e=4 X4h=0  2  1  0  0  -  |   23   20 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  0  1  3  0  -  |   20   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  0  1  1  1  -  |   22   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  0  2  1  0  -  |   24   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  1  1  2  0  -  |   21   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  1  1  0  1  -  |   24   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  1  2  0  0  -  |   25   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  2  1  1  0  -  |   23   19 |  (closed form)          | DEAD
+    (20,0,0) e=5 X4h=0  3  1  0  0  -  |   24   19 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  1  4  0  -  |   19   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  1  2  1  -  |   22   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  1  0  2  -  |   24   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  2  2  0  -  |   23   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  2  0  1  -  |   26   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  0  3  0  0  -  |   27   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  1  1  3  0  -  |   21   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  1  1  1  1  -  |   23   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  1  2  1  0  -  |   25   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  2  1  2  0  -  |   22   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  2  1  0  1  -  |   25   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  2  2  0  0  -  |   26   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  3  1  1  0  -  |   24   18 |  (closed form)          | DEAD
+    (20,0,0) e=6 X4h=0  4  1  0  0  -  |   25   18 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  1  5  0  -  |   19   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  1  3  1  -  |   21   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  1  1  2  -  |   24   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  2  3  0  -  |   23   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  2  1  1  -  |   25   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  0  3  1  0  -  |   27   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  1  4  0  -  |   20   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  1  2  1  -  |   23   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  1  0  2  -  |   25   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  2  2  0  -  |   24   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  2  0  1  -  |   27   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  1  3  0  0  -  |   28   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  2  1  3  0  -  |   22   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  2  1  1  1  -  |   24   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  2  2  1  0  -  |   26   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  3  1  2  0  -  |   23   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  3  1  0  1  -  |   26   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  3  2  0  0  -  |   27   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  4  1  1  0  -  |   25   17 |  (closed form)          | DEAD
+    (20,0,0) e=7 X4h=0  5  1  0  0  -  |   26   17 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  1  6  0  -  |   18   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  1  4  1  -  |   21   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  1  2  2  -  |   23   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  1  0  3  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  2  4  0  -  |   22   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  2  2  1  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  2  0  2  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  3  2  0  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  3  0  1  -  |   29   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  0  4  0  0  -  |   30   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  1  5  0  -  |   20   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  1  3  1  -  |   22   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  1  1  2  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  2  3  0  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  2  1  1  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  1  3  1  0  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  1  4  0  -  |   21   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  1  2  1  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  1  0  2  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  2  2  0  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  2  0  1  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  2  3  0  0  -  |   29   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  3  1  3  0  -  |   23   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  3  1  1  1  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  3  2  1  0  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  4  1  2  0  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  4  1  0  1  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  4  2  0  0  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  5  1  1  0  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=8 X4h=0  6  1  0  0  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  1  7  0  -  |   18   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  1  5  1  -  |   20   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  1  3  2  -  |   23   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  1  1  3  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  2  5  0  -  |   22   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  2  3  1  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  2  1  2  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  3  3  0  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  3  1  1  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  0  4  1  0  -  |   30   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  1  6  0  -  |   19   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  1  4  1  -  |   22   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  1  2  2  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  1  0  3  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  2  4  0  -  |   23   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  2  2  1  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  2  0  2  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  3  2  0  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  3  0  1  -  |   30   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  1  4  0  0  -  |   31   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  1  5  0  -  |   21   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  1  3  1  -  |   23   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  1  1  2  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  2  3  0  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  2  1  1  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  2  3  1  0  -  |   29   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  1  4  0  -  |   22   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  1  2  1  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  1  0  2  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  2  2  0  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  2  0  1  -  |   29   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  3  3  0  0  -  |   30   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  4  1  3  0  -  |   24   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  4  1  1  1  -  |   26   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  4  2  1  0  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  5  1  2  0  -  |   25   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  5  1  0  1  -  |   28   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  5  2  0  0  -  |   29   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  6  1  1  0  -  |   27   16 |  (closed form)          | DEAD
+    (20,0,0) e=9 X4h=0  7  1  0  0  -  |   28   16 |  (closed form)          | DEAD
+    (15,1,0) e=2 X4h=1  0  1  0  0  -  |   23   21 |  (closed form)          | DEAD
+    (15,1,0) e=3 X4h=1  0  1  1  0  -  |   22   20 |  (closed form)          | DEAD
+    (15,1,0) e=3 X4h=1  1  1  0  0  -  |   24   20 |  (closed form)          | DEAD
+    (15,1,0) e=4 X4h=1  0  1  2  0  -  |   22   20 |  (closed form)          | DEAD
+    (15,1,0) e=4 X4h=1  0  1  0  1  -  |   24   20 |  (closed form)          | DEAD
+    (15,1,0) e=4 X4h=1  0  2  0  0  -  |   26   20 |  (closed form)          | DEAD
+    (15,1,0) e=4 X4h=1  1  1  1  0  -  |   23   20 |  (closed form)          | DEAD
+    (15,1,0) e=4 X4h=1  2  1  0  0  -  |   25   20 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  1  5  0  -  |   20   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  1  3  1  -  |   23   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  1  1  2  -  |   25   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  2  3  0  -  |   24   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  2  1  1  -  |   27   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  0  3  1  0  -  |   28   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  1  4  0  -  |   22   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  1  2  1  -  |   24   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  1  0  2  -  |   27   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  2  2  0  -  |   26   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  2  0  1  -  |   28   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  1  3  0  0  -  |   30   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  2  1  3  0  -  |   23   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  2  1  1  1  -  |   26   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  2  2  1  0  -  |   27   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  3  1  2  0  -  |   25   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  3  1  0  1  -  |   27   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  3  2  0  0  -  |   29   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  4  1  1  0  -  |   26   17 |  (closed form)          | DEAD
+    (15,1,0) e=7 X4h=1  5  1  0  0  -  |   28   17 |  (closed form)          | DEAD
+    (10,2,0) e=2 X4h=1  0  1  0  0  -  |   24   20 |  (closed form)          | DEAD
+    (10,2,0) e=2 X4h=2  0  1  0  0  -  |   24   21 |  (closed form)          | DEAD
+    150 censuses with a3 >= 1;  148 killed by the closed form;  2 by the frontier;  0 alive.
+
+[H] The 200 surviving configurations of the sixteen classes
+    total configurations surviving the census with c2, a3 free: 200
+    every one of them has c2 = 0 and a3 = 0  (registered count: 200)
+
+LEMMA 6.7 VERDICT: c2 = 0 in every configuration of every one of the
+sixteen classes; hence every cycle in every one of the 631 search
+instances is type-I and Algorithm 6's type-I-only endgame is complete.

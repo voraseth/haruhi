@@ -1,0 +1,4 @@
+(2) FRONTIER AGREEMENT over k<=5, cost<=20, sh,st<=2: PASS
+(1) SURVIVOR-SET EQUALITY on 16 habitat + 6 control cells: PASS
+(3) MODE ROBUSTNESS (cap-mode 'lin' over-covers 'full'): PASS
+DIFFERENTIAL: PASS

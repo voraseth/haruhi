@@ -1,0 +1,9 @@
+276 configurations x 20 random wirings = 5520 trials
+A  CORRECTED  V = chains not lying in pointer cycles  : 5520/5520 pass
+B  AS PRINTED V = chains that are not forced singletons: 960/5520 pass
+   B failures keyed by (a3>0, b_q1=1): {(True, False): 1920, (True, True): 1920, (False, True): 720}
+   (trials whose random wiring made a d4-only loop, waived by Lemma 5.3: 1222)
+
+witness  a1=11 a2=1 a3=1 c1=2 c2=0 X4h=1 b_q1=1  (U=3, pred |V|=5):
+  A: {'V': 5, 'pred': 5, 'E': 4, 'drop': 0, 'src': 1, 'snk': 1, 'srcq1': True, 'k': 1} PASS
+  B: {'V': 3, 'pred': 5, 'E': 1, 'drop': 3, 'src': 2, 'snk': 2, 'srcq1': False, 'k': 1} FAIL

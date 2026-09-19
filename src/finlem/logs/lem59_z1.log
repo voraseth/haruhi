@@ -1,0 +1,64 @@
+==============================================================================
+LEMMA 5.9 -- corner (D,X4,Z) = (15,0,1), e = 2:  P = 27, h = 25, X4h = 0, D = 15
+==============================================================================
+
+[A] BRANCH LEVEL   (LEDGER-n6: the Z unit lies in exactly one pool)
+    pool  | Q2 cnl pshits | NCh | test                    | verdict
+    zq    |  0   1      2 |  2  | 27 <= F(2,15,2,1)=24    | DEAD
+    zh    |  0   1      2 |  3  | -> wiring analysis [B]   | see [B]
+    zp3   |  0   2      1 |  3  | -> wiring analysis [B]   | see [B]
+    zp2s  |  1   1      1 |  2  | 27 <= F(2,15,1,1)=25    | DEAD
+    zp2g  |  0   1      1 |  2  | 27 <= F(2,15,1,1)=25    | DEAD
+
+[B] WIRING LEVEL, branch zh = 1  (nc runs: ncH heavy-entered => NO
+    in-edge; nc2 CNL-entered.  Both premature ends are ps-hits, so both
+    nc runs have a ps-hit out-edge.  cnl = 1, pshits = 2, NCh = 3.)
+    mechanically generated shapes: 3
+   shape [ncH K1] + [K2 nc2 K3]
+   generic (q1 / zh-emitter / global end outside) blocks=27  F(3,15,2,1)=30  -> ALIVE
+   refinement q1 = K2   [singletons ['K2']]       blocks=26  F(2,13,2,0)=23  -> DEAD
+   refinement zh-emitter = K1  [singletons ['K1']] blocks=26  F(2,14,1,1)=24  -> DEAD
+   refinement global end = K1  [singletons ['K1']] blocks=26  F(2,14,1,1)=24  -> DEAD
+   refinement zh-emitter = K3  [singletons ['K3']] blocks=26  F(2,13,1,1)=23  -> DEAD
+   refinement global end = K3  [singletons ['K3']] blocks=26  F(2,13,1,1)=23  -> DEAD
+   shape [ncH K1] + cycle[nc2 K2]
+   generic (q1 / zh-emitter / global end outside) blocks=26  F(2,14,1,0)=25  -> DEAD
+   refinement zh-emitter = K1  [singletons ['K1', 'K2']] blocks=25  F(1,13,0,0)=19  -> DEAD
+   refinement global end = K1  [singletons ['K1', 'K2']] blocks=25  F(1,13,0,0)=19  -> DEAD
+   shape [ncH K1 nc2 K2]
+   generic (q1 / zh-emitter / global end outside) blocks=26  F(2,12,1,0)=23  -> DEAD
+   refinement zh-emitter = K2  [singletons ['K1', 'K2']] blocks=25  F(1, 9,0,0)=15  -> DEAD
+   refinement global end = K2  [singletons ['K1', 'K2']] blocks=25  F(1, 9,0,0)=15  -> DEAD
+
+[C] WIRING LEVEL, branch zp3 = 1  (nc runs: nc1 and nc2 both CNL-entered
+    (cnl = 2); one premature end is the ps-hit (pshits = 1), the other is
+    the zp3 heavy, which generates no pointer edge -- so exactly one nc
+    run, nc2, has NO out-edge.  NCh = 3.)
+    mechanically generated shapes: 3
+   shape [K1 nc1 K2] + [K3 nc2]
+   generic (q1 / zp3-target / global end outside) blocks=27  F(3,15,1,2)=30  -> ALIVE
+   refinement q1 = K1   [singletons ['K1']]       blocks=26  F(2,13,1,1)=23  -> DEAD
+   refinement zp3-target = K1  [singletons ['K1']] blocks=26  F(2,13,1,1)=23  -> DEAD
+   refinement q1 = K3   [singletons ['K3']]       blocks=26  F(2,14,1,1)=24  -> DEAD
+   refinement zp3-target = K3  [singletons ['K3']] blocks=26  F(2,14,1,1)=24  -> DEAD
+   refinement global end = K2  [singletons ['K2']] blocks=26  F(2,13,0,2)=23  -> DEAD
+   shape cycle[nc1 K1] + [K2 nc2]
+   generic (q1 / zp3-target / global end outside) blocks=26  F(2,14,0,1)=25  -> DEAD
+   refinement q1 = K2   [singletons ['K1', 'K2']] blocks=25  F(1,13,0,0)=19  -> DEAD
+   refinement zp3-target = K2  [singletons ['K1', 'K2']] blocks=25  F(1,13,0,0)=19  -> DEAD
+   shape [K1 nc1 K2 nc2]
+   generic (q1 / zp3-target / global end outside) blocks=26  F(2,12,0,1)=23  -> DEAD
+   refinement q1 = K1   [singletons ['K1', 'K2']] blocks=25  F(1, 9,0,0)=15  -> DEAD
+   refinement zp3-target = K1  [singletons ['K1', 'K2']] blocks=25  F(1, 9,0,0)=15  -> DEAD
+
+[D] SUMMARY
+    branches zq, zp2s, zp2g : DEAD  =>  zp2s = 0  =>  Q2 = 0 (I5)
+    surviving wirings, zh branch : 1
+        [ncH K1] + [K2 nc2 K3]   (generic)
+    surviving wirings, zp3 branch: 1
+        [K1 nc1 K2] + [K3 nc2]   (generic)
+    TOTAL surviving component wirings: 2
+    every surviving wiring is cycle-free  =>  Ncyc = 0;  NCh = 3.
+
+LEMMA 5.9 VERDICT: the Z unit is in zh or zp3; exactly two component
+wirings survive, both cycle-free, with Q2 = 0, Ncyc = 0, NCh = 3.

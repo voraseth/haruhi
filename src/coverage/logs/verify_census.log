@@ -1,0 +1,63 @@
+== (1) CONFIGURATION LAYER: independent generator vs artifact ==
+  [PASS] (20,0,0) e=1: 16 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=2: 17 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=3: 33 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=4: 17 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=5: 11 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=6: 23 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=7: 4 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=8: 2 configs :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=9: 4 configs :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=1: 22 configs :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=2: 16 configs :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=3: 11 configs :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=4: 16 configs :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=7: 4 configs :: only-mine=0 only-artifact=0
+  [PASS] (10,2,0) e=2: 4 configs :: only-mine=0 only-artifact=0
+  [PASS] TOTAL configurations = 200 :: mine=200 artifact=200
+
+== (2) INSTANCE LAYER: expansion vs artifact mkjobs vs committed job list ==
+  [PASS] (20,0,0) e=1: 60 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=2: 51 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=3: 70 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=4: 48 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=5: 29 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=6: 43 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=7: 8 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=8: 3 instances :: only-mine=0 only-artifact=0
+  [PASS] (20,0,0) e=9: 8 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=1: 42 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=2: 27 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=3: 17 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=4: 25 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,1,0) e=7: 5 instances :: only-mine=0 only-artifact=0
+  [PASS] (10,2,0) e=2: 5 instances :: only-mine=0 only-artifact=0
+  [PASS] (15,0,1) 95 instances x 2 wirings = 190 :: 95
+  [PASS] TOTAL instances = 631 :: 631
+  [PASS] instance set == the R-n6-7 sweep driver's job set (all 15 Z=0 classes)
+
+== (3) TWO-LOOP AUDIT: U = a2 + 2*a3 over every configuration ==
+  (20,0,0) e=1: max U=1  max a2=1 max a3=0 max c2=0
+  (20,0,0) e=2: max U=2  max a2=2 max a3=0 max c2=0
+  (20,0,0) e=3: max U=2  max a2=2 max a3=0 max c2=0
+  (20,0,0) e=4: max U=2  max a2=2 max a3=0 max c2=0
+  (20,0,0) e=5: max U=2  max a2=2 max a3=0 max c2=0
+  (20,0,0) e=6: max U=2  max a2=2 max a3=0 max c2=0
+  (20,0,0) e=7: max U=1  max a2=1 max a3=0 max c2=0
+  (20,0,0) e=8: max U=1  max a2=1 max a3=0 max c2=0
+  (20,0,0) e=9: max U=1  max a2=1 max a3=0 max c2=0
+  (15,1,0) e=1: max U=1  max a2=1 max a3=0 max c2=0
+  (15,1,0) e=2: max U=1  max a2=1 max a3=0 max c2=0
+  (15,1,0) e=3: max U=1  max a2=1 max a3=0 max c2=0
+  (15,1,0) e=4: max U=1  max a2=1 max a3=0 max c2=0
+  (15,1,0) e=7: max U=0  max a2=0 max a3=0 max c2=0
+  (10,2,0) e=2: max U=0  max a2=0 max a3=0 max c2=0
+  [PASS] max U over all 200 Z=0 configurations <= 2 :: max=2
+  [PASS] a3 = 0 in every configuration
+  [PASS] c2 = 0 in every configuration
+  (15,0,1): U = 1 span + 1 defect piece = 2, pinned by Theorem K2's wiring list (not by enumeration)
+
+== (4) THE PROVED BOUND 5*(a2+2a3+c2) <= D - e - Delta1 ==
+  [PASS] bound holds (with Delta1 >= n4 + 2*nS) on every generated record :: 0 violations
+
+ALL COVERAGE CROSS-CHECKS PASS

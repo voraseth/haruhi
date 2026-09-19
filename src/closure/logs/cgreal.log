@@ -1,0 +1,318 @@
+best872.txt                  L=872 e=25 D=25 X4h=0 Z=0  a1=4 a2=0 a3=0 c1=25 c2=0 NCh=26
+    |V(CG)|=1  predicted a2+2a3+1+X4h=1  OK | |E|=0 (nc=0 d4=0) pred=0 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 25
+m2obj_620_0.txt              L=878 e=29 D=55 X4h=0 Z=0  a1=2 a2=4 a3=0 c1=25 c2=0 NCh=30
+    |V(CG)|=5  predicted a2+2a3+1+X4h=5  OK | |E|=4 (nc=4 d4=0) pred=4 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=4  U=4  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 25
+m2obj_620_1.txt              L=877 e=29 D=50 X4h=0 Z=0  a1=2 a2=3 a3=0 c1=26 c2=0 NCh=30
+    |V(CG)|=4  predicted a2+2a3+1+X4h=4  OK | |E|=3 (nc=3 d4=0) pred=3 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=3  U=3  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 26
+m2obj_620_11.txt             L=880 e=30 D=65 X4h=0 Z=0  a1=2 a2=5 a3=0 c1=25 c2=0 NCh=31
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=5 d4=0) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=5  U=5  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 25
+m2obj_620_14.txt             L=878 e=29 D=55 X4h=0 Z=0  a1=2 a2=4 a3=0 c1=25 c2=0 NCh=30
+    |V(CG)|=5  predicted a2+2a3+1+X4h=5  OK | |E|=4 (nc=4 d4=0) pred=4 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=4  U=4  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 25
+m2obj_620_19.txt             L=878 e=29 D=55 X4h=0 Z=0  a1=2 a2=4 a3=0 c1=25 c2=0 NCh=30
+    |V(CG)|=5  predicted a2+2a3+1+X4h=5  OK | |E|=4 (nc=4 d4=0) pred=4 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=4  U=4  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 25
+m2obj_620_23.txt             L=877 e=27 D=50 X4h=0 Z=0  a1=6 a2=1 a3=0 c1=26 c2=0 NCh=28
+    |V(CG)|=2  predicted a2+2a3+1+X4h=2  OK | |E|=1 (nc=1 d4=0) pred=1 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=1  U=1  k<=U:True  every loop has non-d4 arc:True
+    arcs touching cycle chains (dropped): 26
+sol000.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol001.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol002.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol003.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol004.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol005.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol006.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol007.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol008.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol009.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol010.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol011.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol012.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol013.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol014.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol015.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol016.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol017.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol018.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol019.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol020.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol021.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol022.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol023.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol024.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol025.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol026.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol027.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol028.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol029.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol030.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol031.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol032.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol033.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol034.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol035.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol036.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol037.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol038.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol039.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol040.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol041.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol042.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol043.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol044.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol045.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol046.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol047.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol048.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol049.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol050.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol051.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol052.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol053.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol054.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol055.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol056.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol057.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol058.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol059.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol060.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol061.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol062.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol063.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol064.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol065.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol066.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol067.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol068.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol069.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol070.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol071.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol072.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol073.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol074.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol075.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol076.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol077.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol078.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol079.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol080.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol081.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol082.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol083.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol084.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol085.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol086.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol087.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol088.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol089.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol090.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol091.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol092.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol093.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol094.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+sol095.txt                   L=873 e=0 D=0 X4h=5 Z=0  a1=24 a2=0 a3=0 c1=0 c2=0 NCh=6
+    |V(CG)|=6  predicted a2+2a3+1+X4h=6  OK | |E|=5 (nc=0 d4=5) pred=5 OK
+    indeg<=1:True outdeg<=1:True  sources=1 sinks=1  loops k=0  U=0  k<=U:True  every loop has non-d4 arc:True
+
+103 objects, 0 violations

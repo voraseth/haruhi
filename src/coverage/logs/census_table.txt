@@ -1,0 +1,910 @@
+# CENSUS TABLE for the L=871 habitat N871-B
+# Regenerate:  python3 src/coverage/checks/print_census.py
+# Part A: the 200 configurations of the 15 Z=0 structural classes.
+# columns: a2 a3 c1 c2 bq1 | a1 n45 n4 nS | sumc1 sumc2 | LAM  (U = a2+2a3)
+
+## CLASS (20,0,0)/e=1/X4h=0   P#=28  NCh=2  configurations=16
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=19 n4=0 nS= 7 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=20 n4=0 nS= 6 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=20 n4=1 nS= 6 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=20 n4=2 nS= 6 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=21 n4=0 nS= 5 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=21 n4=1 nS= 5 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=21 n4=2 nS= 5 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=21 n4=3 nS= 5 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=21 n4=4 nS= 5 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=0 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=1 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=2 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=3 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=4 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=5 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=26 n45=22 n4=6 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=1
+
+## CLASS (20,0,0)/e=2/X4h=0   P#=28  NCh=3  configurations=17
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=19 n4=0 nS= 6 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=19 n4=1 nS= 6 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=20 n4=0 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=20 n4=1 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=20 n4=2 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=20 n4=3 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=0 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=1 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=2 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=3 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=4 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=25 n45=21 n4=5 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=1
+   a2=2 a3=0 c1=0 c2=0 bq1=0 | a1=24 n45=20 n4=0 nS= 4 | sumc1=  0 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=0 c2=0 bq1=0 | a1=24 n45=21 n4=0 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=0 c2=0 bq1=0 | a1=24 n45=21 n4=1 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=0 c2=0 bq1=0 | a1=24 n45=21 n4=2 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=0 c2=0 bq1=1 | a1=24 n45=20 n4=0 nS= 4 | sumc1=  0 sumc2=0 | LAM=2 U=2
+
+## CLASS (20,0,0)/e=3/X4h=0   P#=28  NCh=4  configurations=33
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=17 n4=0 nS= 8 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=17 n4=1 nS= 8 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=18 n4=0 nS= 7 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=18 n4=1 nS= 7 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=18 n4=2 nS= 7 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=18 n4=3 nS= 7 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=0 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=1 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=2 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=3 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=4 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=19 n4=5 nS= 6 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=0 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=1 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=2 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=3 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=4 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=5 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=6 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=25 n45=20 n4=7 nS= 5 | sumc1= 12 sumc2=0 | LAM=1 U=0
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=18 n4=0 nS= 6 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=19 n4=0 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=19 n4=1 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=19 n4=2 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=0 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=1 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=2 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=3 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=4 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=1
+   a2=2 a3=0 c1=1 c2=0 bq1=0 | a1=23 n45=20 n4=0 nS= 3 | sumc1=  4 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=1 c2=0 bq1=0 | a1=23 n45=20 n4=1 nS= 3 | sumc1=  4 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=1 c2=0 bq1=1 | a1=23 n45=20 n4=0 nS= 3 | sumc1=  4 sumc2=0 | LAM=2 U=2
+   a2=2 a3=0 c1=1 c2=0 bq1=1 | a1=23 n45=20 n4=1 nS= 3 | sumc1=  4 sumc2=0 | LAM=2 U=2
+
+## CLASS (20,0,0)/e=4/X4h=0   P#=28  NCh=5  configurations=17
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=18 n4=0 nS= 5 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=18 n4=1 nS= 5 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=19 n4=0 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=19 n4=1 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=19 n4=2 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=19 n4=3 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=0 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=1 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=2 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=3 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=4 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=23 n45=20 n4=5 nS= 3 | sumc1= 12 sumc2=0 | LAM=2 U=1
+   a2=2 a3=0 c1=2 c2=0 bq1=0 | a1=22 n45=19 n4=0 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=2 c2=0 bq1=0 | a1=22 n45=20 n4=0 nS= 2 | sumc1=  8 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=2 c2=0 bq1=0 | a1=22 n45=20 n4=1 nS= 2 | sumc1=  8 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=2 c2=0 bq1=0 | a1=22 n45=20 n4=2 nS= 2 | sumc1=  8 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=2 c2=0 bq1=1 | a1=22 n45=19 n4=0 nS= 3 | sumc1=  8 sumc2=0 | LAM=2 U=2
+
+## CLASS (20,0,0)/e=5/X4h=0   P#=28  NCh=6  configurations=11
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=17 n4=0 nS= 5 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=18 n4=0 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=18 n4=1 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=18 n4=2 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=19 n4=0 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=19 n4=1 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=19 n4=2 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=19 n4=3 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=4 c2=0 bq1=0 | a1=22 n45=19 n4=4 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=1
+   a2=2 a3=0 c1=3 c2=0 bq1=0 | a1=21 n45=19 n4=0 nS= 2 | sumc1= 12 sumc2=0 | LAM=3 U=2
+   a2=2 a3=0 c1=3 c2=0 bq1=0 | a1=21 n45=19 n4=1 nS= 2 | sumc1= 12 sumc2=0 | LAM=3 U=2
+
+## CLASS (20,0,0)/e=6/X4h=0   P#=28  NCh=7  configurations=23
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=15 n4=0 nS= 7 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=16 n4=0 nS= 6 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=16 n4=1 nS= 6 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=16 n4=2 nS= 6 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=17 n4=0 nS= 5 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=17 n4=1 nS= 5 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=17 n4=2 nS= 5 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=17 n4=3 nS= 5 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=17 n4=4 nS= 5 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=0 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=1 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=2 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=3 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=4 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=5 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=0 a3=0 c1=6 c2=0 bq1=0 | a1=22 n45=18 n4=6 nS= 4 | sumc1= 24 sumc2=0 | LAM=1 U=0
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=17 n4=0 nS= 4 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=17 n4=1 nS= 4 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=18 n4=0 nS= 3 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=18 n4=1 nS= 3 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=18 n4=2 nS= 3 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=5 c2=0 bq1=0 | a1=21 n45=18 n4=3 nS= 3 | sumc1= 20 sumc2=0 | LAM=2 U=1
+   a2=2 a3=0 c1=4 c2=0 bq1=0 | a1=20 n45=18 n4=0 nS= 2 | sumc1= 16 sumc2=0 | LAM=3 U=2
+
+## CLASS (20,0,0)/e=7/X4h=0   P#=28  NCh=8  configurations=4
+   a2=1 a3=0 c1=6 c2=0 bq1=0 | a1=20 n45=16 n4=0 nS= 4 | sumc1= 24 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=6 c2=0 bq1=0 | a1=20 n45=17 n4=0 nS= 3 | sumc1= 24 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=6 c2=0 bq1=0 | a1=20 n45=17 n4=1 nS= 3 | sumc1= 24 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=6 c2=0 bq1=0 | a1=20 n45=17 n4=2 nS= 3 | sumc1= 24 sumc2=0 | LAM=2 U=1
+
+## CLASS (20,0,0)/e=8/X4h=0   P#=28  NCh=9  configurations=2
+   a2=1 a3=0 c1=7 c2=0 bq1=0 | a1=19 n45=16 n4=0 nS= 3 | sumc1= 28 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=7 c2=0 bq1=0 | a1=19 n45=16 n4=1 nS= 3 | sumc1= 28 sumc2=0 | LAM=2 U=1
+
+## CLASS (20,0,0)/e=9/X4h=0   P#=28  NCh=10  configurations=4
+   a2=1 a3=0 c1=8 c2=0 bq1=0 | a1=18 n45=15 n4=0 nS= 3 | sumc1= 32 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=8 c2=0 bq1=0 | a1=18 n45=16 n4=0 nS= 2 | sumc1= 32 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=8 c2=0 bq1=0 | a1=18 n45=16 n4=1 nS= 2 | sumc1= 32 sumc2=0 | LAM=2 U=1
+   a2=1 a3=0 c1=8 c2=0 bq1=0 | a1=18 n45=16 n4=2 nS= 2 | sumc1= 32 sumc2=0 | LAM=2 U=1
+
+## CLASS (15,1,0)/e=1/X4h=1   P#=27  NCh=3  configurations=22
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=19 n4=0 nS= 7 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=20 n4=0 nS= 6 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=20 n4=1 nS= 6 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=20 n4=2 nS= 6 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=21 n4=0 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=21 n4=1 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=21 n4=2 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=21 n4=3 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=21 n4=4 nS= 5 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=0 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=1 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=2 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=3 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=4 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=5 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=1 c2=0 bq1=0 | a1=26 n45=22 n4=6 nS= 4 | sumc1=  4 sumc2=0 | LAM=2 U=0
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=21 n4=0 nS= 4 | sumc1=  0 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=21 n4=1 nS= 4 | sumc1=  0 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=22 n4=0 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=22 n4=1 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=22 n4=2 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=0 c2=0 bq1=0 | a1=25 n45=22 n4=3 nS= 3 | sumc1=  0 sumc2=0 | LAM=3 U=1
+
+## CLASS (15,1,0)/e=2/X4h=1   P#=27  NCh=4  configurations=16
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=19 n4=0 nS= 6 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=19 n4=1 nS= 6 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=20 n4=0 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=20 n4=1 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=20 n4=2 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=20 n4=3 nS= 5 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=0 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=1 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=2 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=3 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=4 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=25 n45=21 n4=5 nS= 4 | sumc1=  8 sumc2=0 | LAM=2 U=0
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=24 n45=20 n4=0 nS= 4 | sumc1=  4 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=24 n45=21 n4=0 nS= 3 | sumc1=  4 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=24 n45=21 n4=1 nS= 3 | sumc1=  4 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=1 c2=0 bq1=0 | a1=24 n45=21 n4=2 nS= 3 | sumc1=  4 sumc2=0 | LAM=3 U=1
+
+## CLASS (15,1,0)/e=3/X4h=1   P#=27  NCh=5  configurations=11
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=18 n4=0 nS= 6 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=19 n4=0 nS= 5 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=19 n4=1 nS= 5 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=19 n4=2 nS= 5 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=20 n4=0 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=20 n4=1 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=20 n4=2 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=20 n4=3 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=3 c2=0 bq1=0 | a1=24 n45=20 n4=4 nS= 4 | sumc1= 12 sumc2=0 | LAM=2 U=0
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=23 n45=20 n4=0 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=2 c2=0 bq1=0 | a1=23 n45=20 n4=1 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=1
+
+## CLASS (15,1,0)/e=4/X4h=1   P#=27  NCh=6  configurations=16
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=18 n4=0 nS= 5 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=18 n4=1 nS= 5 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=19 n4=0 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=19 n4=1 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=19 n4=2 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=19 n4=3 nS= 4 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=0 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=1 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=2 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=3 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=4 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=4 c2=0 bq1=0 | a1=23 n45=20 n4=5 nS= 3 | sumc1= 16 sumc2=0 | LAM=2 U=0
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=22 n45=19 n4=0 nS= 3 | sumc1= 12 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=22 n45=20 n4=0 nS= 2 | sumc1= 12 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=22 n45=20 n4=1 nS= 2 | sumc1= 12 sumc2=0 | LAM=3 U=1
+   a2=1 a3=0 c1=3 c2=0 bq1=0 | a1=22 n45=20 n4=2 nS= 2 | sumc1= 12 sumc2=0 | LAM=3 U=1
+
+## CLASS (15,1,0)/e=7/X4h=1   P#=27  NCh=9  configurations=4
+   a2=0 a3=0 c1=7 c2=0 bq1=0 | a1=20 n45=16 n4=0 nS= 4 | sumc1= 28 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=7 c2=0 bq1=0 | a1=20 n45=17 n4=0 nS= 3 | sumc1= 28 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=7 c2=0 bq1=0 | a1=20 n45=17 n4=1 nS= 3 | sumc1= 28 sumc2=0 | LAM=2 U=0
+   a2=0 a3=0 c1=7 c2=0 bq1=0 | a1=20 n45=17 n4=2 nS= 3 | sumc1= 28 sumc2=0 | LAM=2 U=0
+
+## CLASS (10,2,0)/e=2/X4h=2   P#=26  NCh=5  configurations=4
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=20 n4=0 nS= 4 | sumc1=  8 sumc2=0 | LAM=3 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=21 n4=0 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=21 n4=1 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=0
+   a2=0 a3=0 c1=2 c2=0 bq1=0 | a1=24 n45=21 n4=2 nS= 3 | sumc1=  8 sumc2=0 | LAM=3 U=0
+
+# Part A total: 200 configurations
+
+# Part B: expansion into search instances.
+# Z=0 instance = (n5,n4,n3,n2,n1 | c1 | s2-multiset | bq1); the engine
+# ranges internally over each span's (l1,l2) split and over placements.
+# modes: m0 = linear closure; m1 = loop-complete (run iff the instance
+#        carries a loop-capable piece, i.e. s2-multiset non-empty).
+
+## CLASS (20,0,0)/e=1/X4h=0   instances=60  loop-exposed=60  (runs: 60 m0 + 60 m1)
+   n5=16 n4=6 S=(4x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=17 n4=4 S=(5x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=17 n4=5 S=(3x3,1x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=17 n4=5 S=(4x3,0x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=18 n4=2 S=(6x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=18 n4=3 S=(4x3,1x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=18 n4=3 S=(5x3,0x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=18 n4=4 S=(2x3,2x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=18 n4=4 S=(3x3,0x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=18 n4=4 S=(3x3,1x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=18 n4=4 S=(4x3,0x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(7x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(5x3,1x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(6x3,0x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=19 n4=2 S=(3x3,2x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=2 S=(4x3,0x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=2 S=(4x3,1x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=19 n4=2 S=(5x3,0x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=19 n4=3 S=(1x3,3x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=3 S=(2x3,1x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=19 n4=3 S=(2x3,2x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=19 n4=3 S=(3x3,0x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=19 n4=3 S=(3x3,1x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(4x3,2x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(5x3,0x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(5x3,1x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(6x3,0x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=20 n4=1 S=(2x3,3x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(3x3,1x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(3x3,2x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=20 n4=1 S=(4x3,0x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=20 n4=1 S=(4x3,1x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=20 n4=2 S=(0x3,4x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=2 S=(1x3,2x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=2 S=(1x3,3x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,2x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=2 S=(2x3,1x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=20 n4=2 S=(2x3,2x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=20 n4=2 S=(3x3,0x2,1x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,4x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,2x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,3x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,2x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,1x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,2x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=21 n4=0 S=(4x3,0x2,1x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=21 n4=1 S=(0x3,3x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=1 S=(0x3,4x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,2x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=1 S=(1x3,2x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=1 S=(1x3,3x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,2x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=1 S=(2x3,1x2,1x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,2x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=22 n4=0 S=(0x3,3x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=22 n4=0 S=(0x3,4x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,3x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,2x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=22 n4=0 S=(1x3,2x2,1x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,2x1) c1= 0 s2=[2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=2/X4h=0   instances=51  loop-exposed=51  (runs: 51 m0 + 51 m1)
+   n5=16 n4=5 S=(4x3,0x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=17 n4=3 S=(5x3,0x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=17 n4=4 S=(3x3,1x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=17 n4=4 S=(4x3,0x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=18 n4=1 S=(6x3,0x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(4x3,1x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(5x3,0x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=18 n4=3 S=(2x3,2x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=18 n4=3 S=(3x3,0x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=18 n4=3 S=(3x3,1x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=18 n4=3 S=(4x3,0x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(5x3,1x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(6x3,0x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(3x3,2x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(4x3,0x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(4x3,1x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(5x3,0x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=19 n4=2 S=(1x3,3x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=19 n4=2 S=(2x3,1x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=19 n4=2 S=(2x3,2x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=19 n4=2 S=(3x3,0x2,0x1) c1= 0 s2=[4,4] bq1=0  m0+m1
+   n5=19 n4=2 S=(3x3,0x2,1x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=19 n4=2 S=(3x3,1x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,3x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(3x3,1x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(3x3,2x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(4x3,0x2,0x1) c1= 0 s2=[4,4] bq1=0  m0+m1
+   n5=20 n4=0 S=(4x3,0x2,0x1) c1= 0 s2=[4,4] bq1=1  m0+m1
+   n5=20 n4=0 S=(4x3,0x2,1x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(4x3,1x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=20 n4=1 S=(0x3,4x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(1x3,2x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(1x3,3x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=20 n4=1 S=(2x3,0x2,2x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(2x3,1x2,0x1) c1= 0 s2=[4,4] bq1=0  m0+m1
+   n5=20 n4=1 S=(2x3,1x2,1x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=20 n4=1 S=(2x3,2x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) c1= 0 s2=[4,3] bq1=0  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,1x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=21 n4=0 S=(0x3,3x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(0x3,4x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,1x2,2x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,2x2,0x1) c1= 0 s2=[4,4] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,2x2,1x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,3x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,0x2,1x1) c1= 0 s2=[4,4] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,0x2,2x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) c1= 0 s2=[4,3] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,1x1) c1= 1 s2=[2] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) c1= 0 s2=[3,3] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) c1= 0 s2=[4,2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=3/X4h=0   instances=70  loop-exposed=33  (runs: 70 m0 + 33 m1)
+   n5=13 n4=7 S=(5x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=14 n4=5 S=(6x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=14 n4=6 S=(4x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=15 n4=3 S=(7x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=15 n4=4 S=(5x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=15 n4=5 S=(3x3,2x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=15 n4=5 S=(4x3,0x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=1 S=(8x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=2 S=(6x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=3 S=(4x3,2x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=3 S=(5x3,0x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=4 S=(2x3,3x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=4 S=(3x3,1x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=16 n4=4 S=(4x3,0x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=17 n4=0 S=(7x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=1 S=(5x3,2x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=1 S=(6x3,0x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=2 S=(3x3,3x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=2 S=(4x3,1x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=2 S=(5x3,0x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=17 n4=3 S=(1x3,4x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(2x3,2x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(3x3,0x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(3x3,1x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=17 n4=3 S=(4x3,0x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=18 n4=0 S=(4x3,3x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(5x3,1x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(6x3,0x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(2x3,4x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(3x3,2x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(4x3,0x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(4x3,1x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(5x3,0x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=18 n4=2 S=(0x3,5x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(1x3,3x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(2x3,1x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(2x3,2x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(3x3,0x2,1x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(3x3,1x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=18 n4=2 S=(4x3,0x2,0x1) c1= 2 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,5x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(2x3,3x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(3x3,1x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(3x3,2x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(4x3,0x2,1x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(4x3,1x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=19 n4=0 S=(5x3,0x2,0x1) c1= 2 s2=[2] bq1=0  m0+m1
+   n5=19 n4=1 S=(0x3,4x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(1x3,2x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(1x3,3x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(2x3,0x2,3x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(2x3,1x2,1x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(2x3,2x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(3x3,0x2,0x1) c1= 1 s2=[4,4] bq1=0  m0+m1
+   n5=19 n4=1 S=(3x3,0x2,0x1) c1= 1 s2=[4,4] bq1=1  m0+m1
+   n5=19 n4=1 S=(3x3,0x2,1x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(3x3,1x2,0x1) c1= 2 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,3x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(0x3,4x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,1x2,3x1) c1= 3 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(1x3,2x2,1x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,3x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,0x2,2x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,1x2,0x1) c1= 1 s2=[4,4] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,1x2,0x1) c1= 1 s2=[4,4] bq1=1  m0+m1
+   n5=20 n4=0 S=(2x3,1x2,1x1) c1= 2 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,2x2,0x1) c1= 2 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(3x3,0x2,0x1) c1= 1 s2=[4,3] bq1=0  m0+m1
+   n5=20 n4=0 S=(3x3,0x2,0x1) c1= 1 s2=[4,3] bq1=1  m0+m1
+   n5=20 n4=0 S=(3x3,0x2,1x1) c1= 2 s2=[2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=4/X4h=0   instances=48  loop-exposed=48  (runs: 48 m0 + 48 m1)
+   n5=15 n4=5 S=(3x3,0x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=16 n4=3 S=(4x3,0x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=16 n4=4 S=(2x3,1x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=16 n4=4 S=(3x3,0x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=17 n4=1 S=(5x3,0x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=17 n4=2 S=(3x3,1x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=17 n4=2 S=(4x3,0x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=17 n4=3 S=(1x3,2x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=17 n4=3 S=(2x3,0x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=17 n4=3 S=(2x3,1x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=17 n4=3 S=(3x3,0x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=18 n4=0 S=(4x3,1x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=18 n4=0 S=(5x3,0x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=18 n4=1 S=(2x3,2x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(3x3,0x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(3x3,1x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=18 n4=1 S=(4x3,0x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=18 n4=2 S=(0x3,3x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(1x3,1x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=18 n4=2 S=(1x3,2x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=18 n4=2 S=(2x3,0x2,0x1) c1= 2 s2=[4,4] bq1=0  m0+m1
+   n5=18 n4=2 S=(2x3,0x2,1x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=18 n4=2 S=(2x3,1x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,3x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(2x3,1x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(2x3,2x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=19 n4=0 S=(3x3,0x2,0x1) c1= 2 s2=[4,4] bq1=0  m0+m1
+   n5=19 n4=0 S=(3x3,0x2,0x1) c1= 2 s2=[4,4] bq1=1  m0+m1
+   n5=19 n4=0 S=(3x3,0x2,1x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=19 n4=0 S=(3x3,1x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=19 n4=1 S=(0x3,2x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(0x3,3x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(1x3,0x2,2x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(1x3,1x2,0x1) c1= 2 s2=[4,4] bq1=0  m0+m1
+   n5=19 n4=1 S=(1x3,1x2,1x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=19 n4=1 S=(1x3,2x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=19 n4=1 S=(2x3,0x2,0x1) c1= 2 s2=[4,3] bq1=0  m0+m1
+   n5=19 n4=1 S=(2x3,0x2,1x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,1x2,2x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,2x2,0x1) c1= 2 s2=[4,4] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,2x2,1x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,3x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,0x2,1x1) c1= 2 s2=[4,4] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,0x2,2x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,1x2,0x1) c1= 2 s2=[4,3] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,1x2,1x1) c1= 3 s2=[2] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,0x2,0x1) c1= 2 s2=[3,3] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,0x2,0x1) c1= 2 s2=[4,2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=5/X4h=0   instances=29  loop-exposed=29  (runs: 29 m0 + 29 m1)
+   n5=15 n4=4 S=(3x3,0x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=16 n4=2 S=(4x3,0x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=16 n4=3 S=(2x3,1x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=16 n4=3 S=(3x3,0x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=17 n4=0 S=(5x3,0x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=17 n4=1 S=(3x3,1x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=17 n4=1 S=(4x3,0x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=17 n4=2 S=(1x3,2x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=17 n4=2 S=(2x3,0x2,1x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=17 n4=2 S=(2x3,1x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=17 n4=2 S=(3x3,0x2,0x1) c1= 4 s2=[2] bq1=0  m0+m1
+   n5=18 n4=0 S=(2x3,2x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=18 n4=0 S=(3x3,0x2,1x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=18 n4=0 S=(3x3,1x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=18 n4=0 S=(4x3,0x2,0x1) c1= 4 s2=[2] bq1=0  m0+m1
+   n5=18 n4=1 S=(0x3,3x2,0x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(1x3,1x2,1x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=18 n4=1 S=(1x3,2x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=18 n4=1 S=(2x3,0x2,0x1) c1= 3 s2=[4,4] bq1=0  m0+m1
+   n5=18 n4=1 S=(2x3,0x2,1x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=18 n4=1 S=(2x3,1x2,0x1) c1= 4 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(0x3,2x2,1x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(0x3,3x2,0x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,0x2,2x1) c1= 4 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,1x2,0x1) c1= 3 s2=[4,4] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,1x2,1x1) c1= 4 s2=[3] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,2x2,0x1) c1= 4 s2=[2] bq1=0  m0+m1
+   n5=19 n4=0 S=(2x3,0x2,0x1) c1= 3 s2=[4,3] bq1=0  m0+m1
+   n5=19 n4=0 S=(2x3,0x2,1x1) c1= 4 s2=[2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=6/X4h=0   instances=43  loop-exposed=16  (runs: 43 m0 + 16 m1)
+   n5=12 n4=6 S=(4x3,0x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=13 n4=4 S=(5x3,0x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=13 n4=5 S=(3x3,1x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=14 n4=2 S=(6x3,0x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=14 n4=3 S=(4x3,1x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=14 n4=4 S=(2x3,2x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=14 n4=4 S=(3x3,0x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=0 S=(7x3,0x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=1 S=(5x3,1x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=2 S=(3x3,2x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=2 S=(4x3,0x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=3 S=(1x3,3x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=3 S=(2x3,1x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=15 n4=3 S=(3x3,0x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(4x3,2x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=0 S=(5x3,0x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=1 S=(2x3,3x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=1 S=(3x3,1x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=1 S=(4x3,0x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=16 n4=2 S=(0x3,4x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=2 S=(1x3,2x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=2 S=(2x3,0x2,2x1) c1= 6 s2=[-] bq1=0  m0
+   n5=16 n4=2 S=(2x3,1x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=16 n4=2 S=(3x3,0x2,0x1) c1= 5 s2=[3] bq1=0  m0+m1
+   n5=17 n4=0 S=(1x3,4x2,0x1) c1= 6 s2=[-] bq1=0  m0
+   n5=17 n4=0 S=(2x3,2x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=17 n4=0 S=(3x3,0x2,2x1) c1= 6 s2=[-] bq1=0  m0
+   n5=17 n4=0 S=(3x3,1x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=17 n4=0 S=(4x3,0x2,0x1) c1= 5 s2=[3] bq1=0  m0+m1
+   n5=17 n4=1 S=(0x3,3x2,1x1) c1= 6 s2=[-] bq1=0  m0
+   n5=17 n4=1 S=(1x3,1x2,2x1) c1= 6 s2=[-] bq1=0  m0
+   n5=17 n4=1 S=(1x3,2x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=17 n4=1 S=(2x3,0x2,1x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=17 n4=1 S=(2x3,1x2,0x1) c1= 5 s2=[3] bq1=0  m0+m1
+   n5=17 n4=1 S=(3x3,0x2,0x1) c1= 5 s2=[2] bq1=0  m0+m1
+   n5=18 n4=0 S=(0x3,2x2,2x1) c1= 6 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(0x3,3x2,0x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=18 n4=0 S=(1x3,0x2,3x1) c1= 6 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(1x3,1x2,1x1) c1= 5 s2=[4] bq1=0  m0+m1
+   n5=18 n4=0 S=(1x3,2x2,0x1) c1= 5 s2=[3] bq1=0  m0+m1
+   n5=18 n4=0 S=(2x3,0x2,0x1) c1= 4 s2=[4,4] bq1=0  m0+m1
+   n5=18 n4=0 S=(2x3,0x2,1x1) c1= 5 s2=[3] bq1=0  m0+m1
+   n5=18 n4=0 S=(2x3,1x2,0x1) c1= 5 s2=[2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=7/X4h=0   instances=8  loop-exposed=8  (runs: 8 m0 + 8 m1)
+   n5=15 n4=2 S=(3x3,0x2,0x1) c1= 6 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(4x3,0x2,0x1) c1= 6 s2=[4] bq1=0  m0+m1
+   n5=16 n4=1 S=(2x3,1x2,0x1) c1= 6 s2=[4] bq1=0  m0+m1
+   n5=16 n4=1 S=(3x3,0x2,0x1) c1= 6 s2=[3] bq1=0  m0+m1
+   n5=17 n4=0 S=(1x3,2x2,0x1) c1= 6 s2=[4] bq1=0  m0+m1
+   n5=17 n4=0 S=(2x3,0x2,1x1) c1= 6 s2=[4] bq1=0  m0+m1
+   n5=17 n4=0 S=(2x3,1x2,0x1) c1= 6 s2=[3] bq1=0  m0+m1
+   n5=17 n4=0 S=(3x3,0x2,0x1) c1= 6 s2=[2] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=8/X4h=0   instances=3  loop-exposed=3  (runs: 3 m0 + 3 m1)
+   n5=15 n4=1 S=(3x3,0x2,0x1) c1= 7 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(2x3,1x2,0x1) c1= 7 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(3x3,0x2,0x1) c1= 7 s2=[3] bq1=0  m0+m1
+
+## CLASS (20,0,0)/e=9/X4h=0   instances=8  loop-exposed=8  (runs: 8 m0 + 8 m1)
+   n5=14 n4=2 S=(2x3,0x2,0x1) c1= 8 s2=[4] bq1=0  m0+m1
+   n5=15 n4=0 S=(3x3,0x2,0x1) c1= 8 s2=[4] bq1=0  m0+m1
+   n5=15 n4=1 S=(1x3,1x2,0x1) c1= 8 s2=[4] bq1=0  m0+m1
+   n5=15 n4=1 S=(2x3,0x2,0x1) c1= 8 s2=[3] bq1=0  m0+m1
+   n5=16 n4=0 S=(0x3,2x2,0x1) c1= 8 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(1x3,0x2,1x1) c1= 8 s2=[4] bq1=0  m0+m1
+   n5=16 n4=0 S=(1x3,1x2,0x1) c1= 8 s2=[3] bq1=0  m0+m1
+   n5=16 n4=0 S=(2x3,0x2,0x1) c1= 8 s2=[2] bq1=0  m0+m1
+
+## CLASS (15,1,0)/e=1/X4h=1   instances=42  loop-exposed=15  (runs: 42 m0 + 15 m1)
+   n5=16 n4=6 S=(4x3,0x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=17 n4=4 S=(5x3,0x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=17 n4=5 S=(3x3,1x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(6x3,0x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=18 n4=3 S=(4x3,1x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=18 n4=4 S=(2x3,2x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=18 n4=4 S=(3x3,0x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(7x3,0x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(5x3,1x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=2 S=(3x3,2x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=2 S=(4x3,0x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=3 S=(1x3,3x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=3 S=(2x3,1x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=19 n4=3 S=(3x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(4x3,2x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(5x3,0x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(2x3,3x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(3x3,1x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(4x3,0x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=2 S=(0x3,4x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=2 S=(1x3,2x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=2 S=(2x3,0x2,2x1) c1= 1 s2=[-] bq1=0  m0
+   n5=20 n4=2 S=(2x3,1x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=20 n4=2 S=(3x3,0x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(1x3,4x2,0x1) c1= 1 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(2x3,2x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(3x3,0x2,2x1) c1= 1 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(3x3,1x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(4x3,0x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=1 S=(0x3,3x2,1x1) c1= 1 s2=[-] bq1=0  m0
+   n5=21 n4=1 S=(1x3,1x2,2x1) c1= 1 s2=[-] bq1=0  m0
+   n5=21 n4=1 S=(1x3,2x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=21 n4=1 S=(2x3,1x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=21 n4=1 S=(3x3,0x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,2x1) c1= 1 s2=[-] bq1=0  m0
+   n5=22 n4=0 S=(0x3,3x2,0x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,3x1) c1= 1 s2=[-] bq1=0  m0
+   n5=22 n4=0 S=(1x3,1x2,1x1) c1= 0 s2=[4] bq1=0  m0+m1
+   n5=22 n4=0 S=(1x3,2x2,0x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,1x1) c1= 0 s2=[3] bq1=0  m0+m1
+   n5=22 n4=0 S=(2x3,1x2,0x1) c1= 0 s2=[2] bq1=0  m0+m1
+
+## CLASS (15,1,0)/e=2/X4h=1   instances=27  loop-exposed=8  (runs: 27 m0 + 8 m1)
+   n5=16 n4=5 S=(4x3,0x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(5x3,0x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=17 n4=4 S=(3x3,1x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(6x3,0x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(4x3,1x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=18 n4=3 S=(2x3,2x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=18 n4=3 S=(3x3,0x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(5x3,1x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(3x3,2x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(4x3,0x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=2 S=(1x3,3x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=2 S=(2x3,1x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=19 n4=2 S=(3x3,0x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,3x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(3x3,1x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(4x3,0x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(0x3,4x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(1x3,2x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(2x3,0x2,2x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(2x3,1x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(0x3,3x2,1x1) c1= 2 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(1x3,1x2,2x1) c1= 2 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(1x3,2x2,0x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,0x2,1x1) c1= 1 s2=[4] bq1=0  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) c1= 1 s2=[3] bq1=0  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) c1= 1 s2=[2] bq1=0  m0+m1
+
+## CLASS (15,1,0)/e=3/X4h=1   instances=17  loop-exposed=3  (runs: 17 m0 + 3 m1)
+   n5=16 n4=4 S=(4x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=2 S=(5x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(3x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(6x3,0x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(4x3,1x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(2x3,2x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(3x3,0x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(3x3,2x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(4x3,0x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(1x3,3x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(2x3,1x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(3x3,0x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,4x2,0x1) c1= 3 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(1x3,2x2,1x1) c1= 3 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(2x3,0x2,2x1) c1= 3 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(2x3,1x2,0x1) c1= 2 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(3x3,0x2,0x1) c1= 2 s2=[3] bq1=0  m0+m1
+
+## CLASS (15,1,0)/e=4/X4h=1   instances=25  loop-exposed=8  (runs: 25 m0 + 8 m1)
+   n5=15 n4=5 S=(3x3,0x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=16 n4=3 S=(4x3,0x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=16 n4=4 S=(2x3,1x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=17 n4=1 S=(5x3,0x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=17 n4=2 S=(3x3,1x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(1x3,2x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=17 n4=3 S=(2x3,0x2,1x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=0 S=(4x3,1x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(2x3,2x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=1 S=(3x3,0x2,1x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(0x3,3x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(1x3,1x2,1x1) c1= 4 s2=[-] bq1=0  m0
+   n5=18 n4=2 S=(2x3,0x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=0 S=(1x3,3x2,0x1) c1= 4 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(2x3,1x2,1x1) c1= 4 s2=[-] bq1=0  m0
+   n5=19 n4=0 S=(3x3,0x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(0x3,2x2,1x1) c1= 4 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(1x3,0x2,2x1) c1= 4 s2=[-] bq1=0  m0
+   n5=19 n4=1 S=(1x3,1x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=19 n4=1 S=(2x3,0x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(0x3,1x2,2x1) c1= 4 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(0x3,2x2,0x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,0x2,1x1) c1= 3 s2=[4] bq1=0  m0+m1
+   n5=20 n4=0 S=(1x3,1x2,0x1) c1= 3 s2=[3] bq1=0  m0+m1
+   n5=20 n4=0 S=(2x3,0x2,0x1) c1= 3 s2=[2] bq1=0  m0+m1
+
+## CLASS (15,1,0)/e=7/X4h=1   instances=5  loop-exposed=0  (runs: 5 m0 + 0 m1)
+   n5=15 n4=2 S=(3x3,0x2,0x1) c1= 7 s2=[-] bq1=0  m0
+   n5=16 n4=0 S=(4x3,0x2,0x1) c1= 7 s2=[-] bq1=0  m0
+   n5=16 n4=1 S=(2x3,1x2,0x1) c1= 7 s2=[-] bq1=0  m0
+   n5=17 n4=0 S=(1x3,2x2,0x1) c1= 7 s2=[-] bq1=0  m0
+   n5=17 n4=0 S=(2x3,0x2,1x1) c1= 7 s2=[-] bq1=0  m0
+
+## CLASS (10,2,0)/e=2/X4h=2   instances=5  loop-exposed=0  (runs: 5 m0 + 0 m1)
+   n5=19 n4=2 S=(3x3,0x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=0 S=(4x3,0x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=20 n4=1 S=(2x3,1x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(1x3,2x2,0x1) c1= 2 s2=[-] bq1=0  m0
+   n5=21 n4=0 S=(2x3,0x2,1x1) c1= 2 s2=[-] bq1=0  m0
+
+## CLASS (15,0,1)/e=2 wiring=zh   instances=95  loop-exposed=95  (runs: 95 m0 + 95 m1)
+   n5=16 n4=8 S=(0x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=17 n4=6 S=(1x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=17 n4=7 S=(0x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=17 n4=7 S=(0x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=18 n4=4 S=(2x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=18 n4=5 S=(0x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=18 n4=5 S=(1x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=18 n4=5 S=(1x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=19 n4=2 S=(3x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=19 n4=3 S=(1x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=19 n4=3 S=(2x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=19 n4=3 S=(2x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=19 n4=4 S=(0x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=19 n4=4 S=(0x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=19 n4=4 S=(0x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=20 n4=0 S=(4x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=1 S=(2x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=20 n4=2 S=(0x3,2x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=20 n4=3 S=(0x3,0x2,1x1) sA=3 lB=4  m0+m1
+   n5=20 n4=3 S=(0x3,0x2,1x1) sA=4 lB=3  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=2 lB=4  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=3 lB=3  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=4 lB=2  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=20 n4=4 S=(0x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=20 n4=4 S=(0x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=21 n4=0 S=(1x3,2x2,0x1) sA=4 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=21 n4=1 S=(0x3,1x2,1x1) sA=4 lB=4  m0+m1
+   n5=21 n4=1 S=(0x3,2x2,0x1) sA=3 lB=4  m0+m1
+   n5=21 n4=1 S=(0x3,2x2,0x1) sA=4 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,0x2,1x1) sA=3 lB=4  m0+m1
+   n5=21 n4=1 S=(1x3,0x2,1x1) sA=4 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=2 lB=4  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=3 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=4 lB=2  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=2 lB=4  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=3 lB=3  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=4 lB=2  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=2 lB=3  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=3 lB=2  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=4 lB=1  m0+m1
+   n5=21 n4=2 S=(1x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=21 n4=2 S=(1x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=21 n4=3 S=(0x3,0x2,0x1) sA=2 lB=1  m0+m1
+   n5=22 n4=0 S=(0x3,0x2,2x1) sA=4 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,1x2,1x1) sA=3 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,1x2,1x1) sA=4 lB=3  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=2 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=3 lB=3  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=4 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=2 lB=4  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=3 lB=3  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=4 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=2 lB=3  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=3 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=4 lB=1  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=2 lB=3  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=3 lB=2  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=4 lB=1  m0+m1
+   n5=22 n4=1 S=(0x3,1x2,0x1) sA=2 lB=2  m0+m1
+   n5=22 n4=1 S=(0x3,1x2,0x1) sA=3 lB=1  m0+m1
+   n5=22 n4=1 S=(1x3,0x2,0x1) sA=2 lB=1  m0+m1
+   n5=23 n4=0 S=(0x3,0x2,1x1) sA=2 lB=2  m0+m1
+   n5=23 n4=0 S=(0x3,0x2,1x1) sA=3 lB=1  m0+m1
+   n5=23 n4=0 S=(0x3,1x2,0x1) sA=2 lB=1  m0+m1
+
+## CLASS (15,0,1)/e=2 wiring=zp3   instances=95  loop-exposed=95  (runs: 95 m0 + 95 m1)
+   n5=16 n4=8 S=(0x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=17 n4=6 S=(1x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=17 n4=7 S=(0x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=17 n4=7 S=(0x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=18 n4=4 S=(2x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=18 n4=5 S=(0x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=18 n4=5 S=(1x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=18 n4=5 S=(1x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=18 n4=6 S=(0x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=19 n4=2 S=(3x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=19 n4=3 S=(1x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=19 n4=3 S=(2x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=19 n4=3 S=(2x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=19 n4=4 S=(0x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=19 n4=4 S=(0x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=19 n4=4 S=(0x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=19 n4=4 S=(1x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=19 n4=5 S=(0x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=20 n4=0 S=(4x3,0x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=1 S=(2x3,1x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) sA=3 lB=4  m0+m1
+   n5=20 n4=1 S=(3x3,0x2,0x1) sA=4 lB=3  m0+m1
+   n5=20 n4=2 S=(0x3,2x2,0x1) sA=4 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=20 n4=2 S=(1x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=20 n4=2 S=(2x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=20 n4=3 S=(0x3,0x2,1x1) sA=3 lB=4  m0+m1
+   n5=20 n4=3 S=(0x3,0x2,1x1) sA=4 lB=3  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=2 lB=4  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=3 lB=3  m0+m1
+   n5=20 n4=3 S=(0x3,1x2,0x1) sA=4 lB=2  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=20 n4=3 S=(1x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=20 n4=4 S=(0x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=20 n4=4 S=(0x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=21 n4=0 S=(1x3,2x2,0x1) sA=4 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,0x2,1x1) sA=4 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) sA=3 lB=4  m0+m1
+   n5=21 n4=0 S=(2x3,1x2,0x1) sA=4 lB=3  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=2 lB=4  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=3 lB=3  m0+m1
+   n5=21 n4=0 S=(3x3,0x2,0x1) sA=4 lB=2  m0+m1
+   n5=21 n4=1 S=(0x3,1x2,1x1) sA=4 lB=4  m0+m1
+   n5=21 n4=1 S=(0x3,2x2,0x1) sA=3 lB=4  m0+m1
+   n5=21 n4=1 S=(0x3,2x2,0x1) sA=4 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,0x2,1x1) sA=3 lB=4  m0+m1
+   n5=21 n4=1 S=(1x3,0x2,1x1) sA=4 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=2 lB=4  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=3 lB=3  m0+m1
+   n5=21 n4=1 S=(1x3,1x2,0x1) sA=4 lB=2  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=2 lB=3  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=3 lB=2  m0+m1
+   n5=21 n4=1 S=(2x3,0x2,0x1) sA=4 lB=1  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=2 lB=4  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=3 lB=3  m0+m1
+   n5=21 n4=2 S=(0x3,0x2,1x1) sA=4 lB=2  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=2 lB=3  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=3 lB=2  m0+m1
+   n5=21 n4=2 S=(0x3,1x2,0x1) sA=4 lB=1  m0+m1
+   n5=21 n4=2 S=(1x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=21 n4=2 S=(1x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=21 n4=3 S=(0x3,0x2,0x1) sA=2 lB=1  m0+m1
+   n5=22 n4=0 S=(0x3,0x2,2x1) sA=4 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,1x2,1x1) sA=3 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,1x2,1x1) sA=4 lB=3  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=2 lB=4  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=3 lB=3  m0+m1
+   n5=22 n4=0 S=(0x3,2x2,0x1) sA=4 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=2 lB=4  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=3 lB=3  m0+m1
+   n5=22 n4=0 S=(1x3,0x2,1x1) sA=4 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=2 lB=3  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=3 lB=2  m0+m1
+   n5=22 n4=0 S=(1x3,1x2,0x1) sA=4 lB=1  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,0x1) sA=2 lB=2  m0+m1
+   n5=22 n4=0 S=(2x3,0x2,0x1) sA=3 lB=1  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=2 lB=3  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=3 lB=2  m0+m1
+   n5=22 n4=1 S=(0x3,0x2,1x1) sA=4 lB=1  m0+m1
+   n5=22 n4=1 S=(0x3,1x2,0x1) sA=2 lB=2  m0+m1
+   n5=22 n4=1 S=(0x3,1x2,0x1) sA=3 lB=1  m0+m1
+   n5=22 n4=1 S=(1x3,0x2,0x1) sA=2 lB=1  m0+m1
+   n5=23 n4=0 S=(0x3,0x2,1x1) sA=2 lB=2  m0+m1
+   n5=23 n4=0 S=(0x3,0x2,1x1) sA=3 lB=1  m0+m1
+   n5=23 n4=0 S=(0x3,1x2,0x1) sA=2 lB=1  m0+m1
+
+# Part B total: 631 instances  ->  631 linear runs + 480 loop-complete runs = 1111 runs
+# ASSERTIONS OK: 200 configurations, 631 instances, 631+480 = 1111 runs

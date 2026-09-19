@@ -1,0 +1,54 @@
+== (i) the Tier-1 closed form is algebraically my Lemmas 4.9 + 4.10 ==
+  [PASS] N_lo <= n45 <= N_hi is EXACTLY (Lemma 4.10 budget) and (Lemma 4.9 cap) :: 0 mismatches
+      so a census with N_lo > N_hi has NO admissible n45: it is empty,
+      by two inequalities I proved necessary in coverage.md sect. 4.
+      b_q1=0 maximises lam hence N_hi, and N_lo is b_q1-free, so testing
+      at b_q1=0 is the WEAKEST test: DEAD there is DEAD for both.
+
+== (iii)/(iv) the two tiers, recomputed with my own F ==
+  c2 >= 1: Tier-1 kills 140, Tier-2 kills 10, SURVIVORS 0  (Tier-2 rows printed: 11)
+  [PASS] c2 clause: 140 Tier-1 + 10 Tier-2 = 150 censuses, 0 survivors :: 140+10, surv=0
+  [PASS] c2 clause: 11 Tier-2 rows (the (20,0,0) e=4 census splits on b_q1) :: 11
+  a3 >= 1: Tier-1 kills 148, Tier-2 kills 2, SURVIVORS 0  (Tier-2 rows printed: 4)
+  [PASS] a3 clause: 148 Tier-1 + 2 Tier-2 = 150 censuses, 0 survivors :: 148+2, surv=0
+
+  Tier-2 table for c2 >= 1 (complete, 11 rows):
+  class                  a2 a3 c1 c2 bq1   blk  lam  cost  sh st    F  verdict
+  (20,0,0) e=2 X4h=0      0  0  0  1   0     26    1    13  0  0    19  DEAD
+  (20,0,0) e=3 X4h=0      0  0  1  1   0     25    1    12  0  0    19  DEAD
+  (20,0,0) e=4 X4h=0      0  0  2  1   0     24    1    11  0  0    17  DEAD
+  (20,0,0) e=4 X4h=0      1  0  1  1   0     25    2    12  1  1    21  DEAD
+  (20,0,0) e=4 X4h=0      1  0  1  1   1     24    1    10  1  0    15  DEAD
+  (20,0,0) e=5 X4h=0      0  0  3  1   0     23    1    10  0  0    16  DEAD
+  (20,0,0) e=6 X4h=0      0  0  4  1   0     22    1     9  0  0    15  DEAD
+  (20,0,0) e=7 X4h=0      0  0  5  1   0     21    1     8  0  0    14  DEAD
+  (20,0,0) e=9 X4h=0      0  0  7  1   0     19    1     6  0  0    11  DEAD
+  (15,1,0) e=2 X4h=1      0  0  0  1   0     25    2     8  0  0    20  DEAD
+  (15,1,0) e=4 X4h=1      0  0  2  1   0     23    2     6  0  0    17  DEAD
+
+  Tier-2 table for a3 >= 1 (complete):
+  (20,0,0) e=2 X4h=0      0  1  0  0   0     27    2    16  1  1    26  DEAD
+  (20,0,0) e=2 X4h=0      0  1  0  0   1     26    1    14  1  0    19  DEAD
+  (20,0,0) e=4 X4h=0      0  1  2  0   0     25    2    14  1  1    24  DEAD
+  (20,0,0) e=4 X4h=0      0  1  2  0   1     24    1    12  1  0    17  DEAD
+
+== (v) robustness: drop the un-re-derived table value g(20) = 25 ==
+  [PASS] F_lin over-covers F on the whole consumed range
+  c2 >= 1 (cap-mode 'lin'): Tier-1 kills 140, Tier-2 kills 10, SURVIVORS 0  (Tier-2 rows printed: 11)
+  a3 >= 1 (cap-mode 'lin'): Tier-1 kills 148, Tier-2 kills 2, SURVIVORS 0  (Tier-2 rows printed: 4)
+  [PASS] both clauses still have 0 survivors without g(20)=25 :: c2 surv=0, a3 surv=0
+
+== (vi) discrimination: the same two tiers OUTSIDE the 871 budget ==
+  (25,0,0) e=3: 1 censuses with c2 >= 1 SURVIVE both tiers
+  (25,0,0) e=5: 2 censuses with c2 >= 1 SURVIVE both tiers
+  (25,0,0) e=8: 1 censuses with c2 >= 1 SURVIVE both tiers
+  (25,0,0) e=11: 1 censuses with c2 >= 1 SURVIVE both tiers
+  (25,0,0) e=12: 0 censuses with c2 >= 1 SURVIVE both tiers
+  (30,0,0) e=5: 6 censuses with c2 >= 1 SURVIVE both tiers
+  [PASS] the two tiers ADMIT type-II cycles outside the 871 budget
+  [PASS] they admit NONE inside it (all 16 classes)
+
+== consistency with my own census (coverage.md sect. 7) ==
+  [PASS] my Algorithm G still emits 200 configurations, all with a3 = c2 = 0 :: 200
+
+TIER DERIVATION INDEPENDENTLY VERIFIED

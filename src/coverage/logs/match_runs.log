@@ -1,0 +1,11 @@
+== the 1111 committed runs vs my independently derived instance list ==
+  [PASS] committed run count = 1111 :: 1111
+  [PASS] my run count = 1111 :: 1111
+  [PASS] run sets are IDENTICAL (0 missing, 0 extra) :: missing-from-log=0 extra-in-log=0
+  [PASS] split = 631 linear + 480 loop-complete :: 631+480
+  [PASS] 0 SAT verdicts :: 0
+  [PASS] 0 CAPPED / TIMEOUT / anomalous verdicts :: 0
+  loop-exposed per corner: {'15': 34, '20': 256, 'z1': 190}
+  [PASS] exposed = 256 (20,0,0) + 34 (15,1,0) + 190 (15,0,1)
+
+RUN-LEVEL MATCH COMPLETE

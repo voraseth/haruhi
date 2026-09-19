@@ -1,0 +1,50 @@
+== TWO-LOOP BOUND under the WEAK system (identities + TC2c + C6-A only) ==
+   (no value ledger, no Pareto ledger)
+  (20,0,0) e=1 X4h=0:    146 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (20,0,0) e=2 X4h=0:    123 weakly-admissible records, max U=2 (max a2=2, max a3=1)
+  (20,0,0) e=3 X4h=0:    102 weakly-admissible records, max U=2 (max a2=2, max a3=0)
+  (20,0,0) e=4 X4h=0:    116 weakly-admissible records, max U=2 (max a2=2, max a3=1)
+  (20,0,0) e=5 X4h=0:     76 weakly-admissible records, max U=2 (max a2=2, max a3=0)
+  (20,0,0) e=6 X4h=0:     48 weakly-admissible records, max U=2 (max a2=2, max a3=0)
+  (20,0,0) e=7 X4h=0:     29 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (20,0,0) e=8 X4h=0:     20 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (20,0,0) e=9 X4h=0:     27 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (15,1,0) e=1 X4h=1:     45 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (15,1,0) e=2 X4h=1:     29 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (15,1,0) e=3 X4h=1:     20 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (15,1,0) e=4 X4h=1:     27 weakly-admissible records, max U=1 (max a2=1, max a3=0)
+  (15,1,0) e=7 X4h=1:      5 weakly-admissible records, max U=0 (max a2=0, max a3=0)
+  (10,2,0) e=2 X4h=2:      5 weakly-admissible records, max U=0 (max a2=0, max a3=0)
+  GLOBAL max U over all 15 Z=0 classes = 2
+  [PASS] U <= 2 under the weak system
+
+== the hand proof's case certificate (coverage.md sect. 5) ==
+   Step 1 (deficiency):  5*(a2+2a3+c2) <= D - e - Delta1
+  (20,0,0) e=1: 5*Lambda <= 20-1 = 19  =>  Lambda <= 3   (needs step 2)
+  (20,0,0) e=2: 5*Lambda <= 20-2 = 18  =>  Lambda <= 3   (needs step 2)
+  (20,0,0) e=3: 5*Lambda <= 20-3 = 17  =>  Lambda <= 3   (needs step 2)
+  (20,0,0) e=4: 5*Lambda <= 20-4 = 16  =>  Lambda <= 3   (needs step 2)
+  (20,0,0) e=5: 5*Lambda <= 20-5 = 15  =>  Lambda <= 3   (needs step 2)
+  (20,0,0) e=6: 5*Lambda <= 20-6 = 14  =>  Lambda <= 2   (<=2 already)
+  (20,0,0) e=7: 5*Lambda <= 20-7 = 13  =>  Lambda <= 2   (<=2 already)
+  (20,0,0) e=8: 5*Lambda <= 20-8 = 12  =>  Lambda <= 2   (<=2 already)
+  (20,0,0) e=9: 5*Lambda <= 20-9 = 11  =>  Lambda <= 2   (<=2 already)
+  (15,1,0) e=1: 5*Lambda <= 15-1 = 14  =>  Lambda <= 2   (<=2 already)
+  (15,1,0) e=2: 5*Lambda <= 15-2 = 13  =>  Lambda <= 2   (<=2 already)
+  (15,1,0) e=3: 5*Lambda <= 15-3 = 12  =>  Lambda <= 2   (<=2 already)
+  (15,1,0) e=4: 5*Lambda <= 15-4 = 11  =>  Lambda <= 2   (<=2 already)
+  (15,1,0) e=7: 5*Lambda <= 15-7 = 8  =>  Lambda <= 1   (<=2 already)
+  (10,2,0) e=2: 5*Lambda <= 10-2 = 8  =>  Lambda <= 1   (<=2 already)
+   Step 2 (run cap) for the residual cases (20,0,0), e in {3,4,5}, U = 3:
+    e=3 (a2,a3)=(3,0): Delta1<=2, a1=22, nS<=1, LAM<=4  ->  IMPOSSIBLE (run cap violated for every nS)
+    e=3 (a2,a3)=(1,1): Delta1<=2, a1=23, nS<=1, LAM<=3  ->  IMPOSSIBLE (run cap violated for every nS)
+    e=4 (a2,a3)=(3,0): Delta1<=1, a1=21, nS<=0, LAM<=4  ->  IMPOSSIBLE (run cap violated for every nS)
+    e=4 (a2,a3)=(1,1): Delta1<=1, a1=22, nS<=0, LAM<=3  ->  IMPOSSIBLE (run cap violated for every nS)
+    e=5 (a2,a3)=(3,0): Delta1<=0, a1=20, nS<=0, LAM<=4  ->  IMPOSSIBLE (run cap violated for every nS)
+    e=5 (a2,a3)=(1,1): Delta1<=0, a1=21, nS<=0, LAM<=3  ->  IMPOSSIBLE (run cap violated for every nS)
+
+== ROBUSTNESS: the same audit with TC2c's cycle-closure EQUALITY also off ==
+  max U with only the L2 five-vertex caps (no TC2c equality) = 2
+  [PASS] U <= 2 without TC2c
+
+TWO-LOOP BOUND VERIFIED

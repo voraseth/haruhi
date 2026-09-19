@@ -1,0 +1,54 @@
+==========================================================================
+LEMMA 5.8 -- cell (10,2,0), e=2, X4h=1:  P=26, NCh=e+1+X4h=4, D=10
+==========================================================================
+
+[A] CENSUS LEVEL  (a2 + 2a3 + c1 + 2c2 = e = 2;  a1 = P - e - a2 - a3)
+     a2 a3 c1 c2 | a1 | deficiency floor | verdict
+      0  0  2  0 | 24 |                2 | survives to [B]
+      0  0  0  1 | 24 |                7 | survives to [B]
+      0  1  0  0 | 23 |               12 | DEAD: floor > D=10
+      1  0  1  0 | 23 |                7 | survives to [B]
+      2  0  0  0 | 22 |               12 | DEAD: floor > D=10
+
+[A2] CLOSED-FORM LEVEL (the same N_lo/N_hi pinch used in Lemma 6.7)
+     a2 a3 c1 c2 bq1 | a1 lam | N_lo N_hi | verdict
+      0  0  2  0  0  | 24   2 |   20   20 | survives: n45 in [20,20]
+      0  0  0  1  0  | 24   2 |   23   20 | DEAD (N_lo > N_hi)
+      1  0  1  0  0  | 23   3 |   22   20 | DEAD (N_lo > N_hi)
+      1  0  1  0  1  | 23   2 |   22   20 | DEAD (N_lo > N_hi)
+
+[B] SLICE LEVEL for X4h=1  (only slices reaching the class-length budget
+    are printed; every other slice is killed by the run cap C6-A first)
+    a2 a3 c1 c2 bq1 n45 | nS Rmax lam | n4-window from the length budget | verdict
+     0  0  2  0  0  20 |  4   6   2 | n4 in [0] | TC5_pareto
+    (1 slice(s) survive the run cap AND the length budget)
+
+[C] THE DECIDING CANDIDATE
+    x = (a2,a3,c1,c2,b_q1,n45,n4) = (0, 0, 2, 0, 0, 20, 0)
+    a1=24  nS=4  lam=2  blocks_rest=24  cost_sing=2  cost_rest=8
+    class budget: 120 = 5*20 + (4 shorts) + 4*2 ->  rem=12 in [4,12]  OK
+    verdict: TC5_pareto   blocks_rest=24 > F(2,8,0,0)=20
+
+[D] CONTROL X4h=2 (the same algorithm must NOT empty this cell)
+    survivors = 4   [(0, 0, 2, 0, 0, 20, 0), (0, 0, 2, 0, 0, 21, 0), (0, 0, 2, 0, 0, 21, 1), (0, 0, 2, 0, 0, 21, 2)]
+    (registered K3 count for (10,2,0) e=2 X4h=2 is 4)
+
+[E] ABLATION at X4h=1 (drop one test family, keep the rest)
+    drop none                   -> 0 configuration(s) revived
+    drop run cap C6-A           -> 0 configuration(s) revived
+    drop value ledger C6-B      -> 0 configuration(s) revived
+    drop Pareto frontier C6-C   -> 1 configuration(s) revived
+    (matches R-n6-6 finding F1: the run cap and the value ledger are
+     REDUNDANT here; the Pareto frontier plus the class budget kills
+     the cell on its own.)
+
+[F] CROSS-LENGTH CONTROLS (nothing certified here may empty a real cell)
+    (25,0,0) e=25 X4h=0  [verified 872 (L=872)]: 1 configuration(s) survive
+       real 872 configuration (a1=4 all length 5, 25 type-I cycles) admitted: True
+    (0,6,0) e=0 X4h=5  [verified 873s (L=873)]: 1 configuration(s) survive
+    (0,6,0) e=0 X4h=6  [873 corner X4h=6]: 1 configuration(s) survive
+
+LEMMA 5.8 VERDICT: cell (10,2,0) e=2 X4h=1 is EMPTY (2402 candidates in the full-tuple
+convention, 1872 in the slice convention of tight_enum.py; 0 survivors);
+hence X4h = X4 = 2 there, X4h = X4 in every one of the sixteen classes,
+and no transition of cost >= 5 occurs in any length-871 ordering.

@@ -1,0 +1,93 @@
+== ADMISSION CONTROLS: real objects at their own classes ==
+
+  verified 872  L=872 sha=56d589c3
+    (D,X4,Z)=(25,0,0) e=25 X4h=0 P#=29 NCh=26
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (0, 0, 25, 0, 0, 4, 0, 100, 0)
+  [PASS] verified 872: ADMITTED by Algorithm G (1 configs in its class)
+  [PASS] verified 872: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*0=0 <= 25-25-0=0
+    -> the same inequality permits U = a2+2a3 up to 0 here (object has 0)
+
+  verified 873 baseline  L=873 sha=033a4738
+    (D,X4,Z)=(0,6,0) e=0 X4h=5 P#=24 NCh=6
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (0, 0, 0, 0, 0, 24, 0, 0, 0)
+  [PASS] verified 873 baseline: ADMITTED by Algorithm G (1 configs in its class)
+  [PASS] verified 873 baseline: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*0=0 <= 0-0-0=0
+    -> the same inequality permits U = a2+2a3 up to 0 here (object has 0)
+
+  R-n6-7 counterexample #0  L=878 sha=24f51263
+    (D,X4,Z)=(55,0,0) e=29 X4h=0 P#=35 NCh=30
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (4, 0, 25, 0, 0, 1, 0, 100, 0)
+  [PASS] R-n6-7 counterexample #0: ADMITTED by Algorithm G (284 configs in its class)
+  [PASS] R-n6-7 counterexample #0: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*4=20 <= 55-29-2=24
+    -> the same inequality permits U = a2+2a3 up to 4 here (object has 4)
+
+  R-n6-7 counterexample #1  L=877 sha=3fae26ae
+    (D,X4,Z)=(50,0,0) e=29 X4h=0 P#=34 NCh=30
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (3, 0, 26, 0, 0, 1, 0, 104, 0)
+  [PASS] R-n6-7 counterexample #1: ADMITTED by Algorithm G (138 configs in its class)
+  [PASS] R-n6-7 counterexample #1: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*3=15 <= 50-29-3=18
+    -> the same inequality permits U = a2+2a3 up to 3 here (object has 3)
+
+  R-n6-7 counterexample #11  L=880 sha=9bd8a84f
+    (D,X4,Z)=(65,0,0) e=30 X4h=0 P#=37 NCh=31
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (5, 0, 25, 0, 0, 1, 1, 100, 0)
+  [PASS] R-n6-7 counterexample #11: ADMITTED by Algorithm G (612 configs in its class)
+  [PASS] R-n6-7 counterexample #11: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*5=25 <= 65-30-5=30
+    -> the same inequality permits U = a2+2a3 up to 6 here (object has 5)
+
+  R-n6-7 counterexample #14  L=878 sha=1d1e08a3
+    (D,X4,Z)=(55,0,0) e=29 X4h=0 P#=35 NCh=30
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (4, 0, 25, 0, 0, 1, 0, 100, 0)
+  [PASS] R-n6-7 counterexample #14: ADMITTED by Algorithm G (284 configs in its class)
+  [PASS] R-n6-7 counterexample #14: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*4=20 <= 55-29-2=24
+    -> the same inequality permits U = a2+2a3 up to 4 here (object has 4)
+
+  R-n6-7 counterexample #19  L=878 sha=3f85851d
+    (D,X4,Z)=(55,0,0) e=29 X4h=0 P#=35 NCh=30
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (4, 0, 25, 0, 0, 1, 0, 100, 0)
+  [PASS] R-n6-7 counterexample #19: ADMITTED by Algorithm G (284 configs in its class)
+  [PASS] R-n6-7 counterexample #19: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*4=20 <= 55-29-2=24
+    -> the same inequality permits U = a2+2a3 up to 4 here (object has 4)
+
+  R-n6-7 counterexample #23  L=877 sha=c5608da2
+    (D,X4,Z)=(50,0,0) e=27 X4h=0 P#=34 NCh=28
+    configuration key (a2,a3,c1,c2,bq1,n45,n4,sum_c1,sum_c2) = (1, 0, 26, 0, 0, 1, 0, 104, 0)
+  [PASS] R-n6-7 counterexample #23: ADMITTED by Algorithm G (308 configs in its class)
+  [PASS] R-n6-7 counterexample #23: proved inequality 5*(a2+2a3+c2) <= D-e-Delta1 holds :: 5*1=5 <= 50-27-17=6
+    -> the same inequality permits U = a2+2a3 up to 1 here (object has 1)
+
+== DISCRIMINATION 1: per-test ablation over the 15 L=871 classes ==
+  full system: 200 configurations
+  TC2c cycle closure OFF            :    274 configurations  (+74 revived)
+  run caps C6-A OFF                 :    701 configurations  (+501 revived)
+  value ledger OFF                  :    200 configurations  (no change -- VACUOUS HERE)
+  Pareto ledger OFF                 :    404 configurations  (+204 revived)
+  ALL FOUR OFF (identities only)    :   6513 configurations  (+6313 revived)
+  [PASS] the machinery does NOT accept everything (identities alone admit far more) :: 6513 vs 200
+  [PASS] three of the four tests bite at L=871 (TC2c, run caps, Pareto) :: TC2c=274 run=701 pareto=404
+  HONEST FINDING: the VALUE ledger is verdict-neutral at L=871 -- removing
+  it revives 0 configurations.  This reproduces the artifact's own ablation
+  (n6tight/checks/probe_kill.py: 'relaxing the VALUE ledger alone revives 0')
+  and makes the census MORE robust, not less: it does not rest on that test.
+  [PASS] TC2c-off count reproduces the artifact's pre-TC2c census (274) :: 274
+  [PASS] every full-system configuration survives with all tests off (monotone filters)
+
+== DISCRIMINATION 2: cells the machinery kills outright ==
+  [PASS] (10,2,0) e=2 X4h=1: 0 configs (expected 0)
+  [PASS] (10,2,0) e=2 X4h=2: 4 configs (expected 4)
+  [PASS] (0,6,0) e=0 X4h=2: 0 configs (expected 0)
+  [PASS] (0,6,0) e=0 X4h=3: 0 configs (expected 0)
+  [PASS] (0,6,0) e=0 X4h=4: 0 configs (expected 0)
+  [PASS] (0,6,0) e=0 X4h=5: 1 configs (expected 1)
+  [PASS] (0,6,0) e=0 X4h=6: 1 configs (expected 1)
+  [PASS] (25,0,0) e=25 X4h=0: 1 configs (expected 1)
+  -> Theorem K1 (the (10,2,0)/X4h=1 quarter-kill) is reproduced;
+     the 873 corner is FORCED to X4h >= 5, the real 873's value;
+     the 872 corner admits EXACTLY ONE configuration, the real 872's.
+
+== DISCRIMINATION 3: the a2 = 3 test (same code, opposite verdicts) ==
+  [PASS] a2 <= 2 in every L=871 class (a2=3 REJECTED) :: max a2 = 2
+  [PASS] a2 = 3 ACCEPTED at (50,0,0) e=29, where a real object has it :: max a2 = 4
+  [PASS] a2 = 5 ACCEPTED at (65,0,0) e=30, where a real object has it :: max a2 = 7
+
+ALL CONTROLS PASS
